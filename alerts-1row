@@ -1,0 +1,32 @@
+{
+    "alerts": [
+        {
+            "all_opening_trades": false,
+            "created_at": "2024-01-26T21:00:26.137574Z",
+            "end_time": 1706302792183,
+            "expiry": "2024-02-02",
+            "expiry_count": 1,
+            "has_floor": false,
+            "has_multileg": false,
+            "has_singleleg": true,
+            "has_sweep": true,
+            "id": "73ef68e4-966f-4f08-9186-bd6ead7b2591",
+            "open_interest": 311,
+            "option_chain": "CVNA240202C00070000",
+            "price": "0.08",
+            "rule_id": "e6b9f0b6-fcd9-44fe-9d1c-f53521c152c3",
+            "start_time": 1706302792177,
+            "strike": "70",
+            "ticker": "CVNA",
+            "total_ask_side_prem": "29728",
+            "total_bid_side_prem": "0",
+            "total_premium": "29728",
+            "total_size": 3716,
+            "trade_count": 28,
+            "type": "call",
+            "underlying_price": "41.78",
+            "volume": 11921,
+            "volume_oi_ratio": "38.3311897106109"
+        }
+    ]
+}

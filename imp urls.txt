@@ -1,0 +1,1410 @@
+{
+    "data": [
+        {
+            "ask_prem": "440948.0000",
+            "bid_prem": "113919.0000",
+            "call_premium": "473816.0000",
+            "call_volume": 1449,
+            "call_volume_ask_side": 1069,
+            "call_volume_bid_side": 320,
+            "date": "2024-01-09",
+            "put_premium": "105718.0000",
+            "put_volume": 491,
+            "put_volume_ask_side": 221,
+            "put_volume_bid_side": 230,
+            "tape_time": "2024-01-09T09:30:00-05:00"
+        },
+        {
+            "ask_prem": "353156.0000",
+            "bid_prem": "135735.0000",
+            "call_premium": "478431.0000",
+            "call_volume": 2253,
+            "call_volume_ask_side": 1248,
+            "call_volume_bid_side": 851,
+            "date": "2024-01-09",
+            "put_premium": "44381.0000",
+            "put_volume": 196,
+            "put_volume_ask_side": 103,
+            "put_volume_bid_side": 59,
+            "tape_time": "2024-01-09T09:35:00-05:00"
+        },
+        {
+            "ask_prem": "90146.0000",
+            "bid_prem": "293187.0000",
+            "call_premium": "155620.0000",
+            "call_volume": 1059,
+            "call_volume_ask_side": 171,
+            "call_volume_bid_side": 688,
+            "date": "2024-01-09",
+            "put_premium": "273851.0000",
+            "put_volume": 732,
+            "put_volume_ask_side": 311,
+            "put_volume_bid_side": 367,
+            "tape_time": "2024-01-09T09:40:00-05:00"
+        },
+        {
+            "ask_prem": "98948.0000",
+            "bid_prem": "100254.0000",
+            "call_premium": "154597.0000",
+            "call_volume": 846,
+            "call_volume_ask_side": 444,
+            "call_volume_bid_side": 333,
+            "date": "2024-01-09",
+            "put_premium": "57388.0000",
+            "put_volume": 375,
+            "put_volume_ask_side": 82,
+            "put_volume_bid_side": 273,
+            "tape_time": "2024-01-09T09:45:00-05:00"
+        },
+        {
+            "ask_prem": "31989.0000",
+            "bid_prem": "91701.0000",
+            "call_premium": "81264.0000",
+            "call_volume": 645,
+            "call_volume_ask_side": 97,
+            "call_volume_bid_side": 504,
+            "date": "2024-01-09",
+            "put_premium": "52911.0000",
+            "put_volume": 460,
+            "put_volume_ask_side": 98,
+            "put_volume_bid_side": 356,
+            "tape_time": "2024-01-09T09:50:00-05:00"
+        },
+        {
+            "ask_prem": "67454.0000",
+            "bid_prem": "531980.0000",
+            "call_premium": "580556.0000",
+            "call_volume": 1583,
+            "call_volume_ask_side": 370,
+            "call_volume_bid_side": 1135,
+            "date": "2024-01-09",
+            "put_premium": "40195.0000",
+            "put_volume": 211,
+            "put_volume_ask_side": 113,
+            "put_volume_bid_side": 87,
+            "tape_time": "2024-01-09T09:55:00-05:00"
+        },
+        {
+            "ask_prem": "86904.0000",
+            "bid_prem": "44053.0000",
+            "call_premium": "70506.0000",
+            "call_volume": 495,
+            "call_volume_ask_side": 120,
+            "call_volume_bid_side": 320,
+            "date": "2024-01-09",
+            "put_premium": "82828.0000",
+            "put_volume": 332,
+            "put_volume_ask_side": 252,
+            "put_volume_bid_side": 52,
+            "tape_time": "2024-01-09T10:00:00-05:00"
+        },
+        {
+            "ask_prem": "20112.0000",
+            "bid_prem": "14730.0000",
+            "call_premium": "31503.0000",
+            "call_volume": 332,
+            "call_volume_ask_side": 198,
+            "call_volume_bid_side": 109,
+            "date": "2024-01-09",
+            "put_premium": "9794.0000",
+            "put_volume": 37,
+            "put_volume_ask_side": 12,
+            "put_volume_bid_side": 18,
+            "tape_time": "2024-01-09T10:05:00-05:00"
+        },
+        {
+            "ask_prem": "37317.0000",
+            "bid_prem": "41719.0000",
+            "call_premium": "40641.0000",
+            "call_volume": 219,
+            "call_volume_ask_side": 111,
+            "call_volume_bid_side": 78,
+            "date": "2024-01-09",
+            "put_premium": "47886.0000",
+            "put_volume": 331,
+            "put_volume_ask_side": 169,
+            "put_volume_bid_side": 139,
+            "tape_time": "2024-01-09T10:10:00-05:00"
+        },
+        {
+            "ask_prem": "79575.0000",
+            "bid_prem": "103846.0000",
+            "call_premium": "138148.0000",
+            "call_volume": 574,
+            "call_volume_ask_side": 273,
+            "call_volume_bid_side": 254,
+            "date": "2024-01-09",
+            "put_premium": "53022.0000",
+            "put_volume": 362,
+            "put_volume_ask_side": 96,
+            "put_volume_bid_side": 251,
+            "tape_time": "2024-01-09T10:15:00-05:00"
+        },
+        {
+            "ask_prem": "125498.0000",
+            "bid_prem": "81292.0000",
+            "call_premium": "189793.0000",
+            "call_volume": 1743,
+            "call_volume_ask_side": 928,
+            "call_volume_bid_side": 747,
+            "date": "2024-01-09",
+            "put_premium": "45773.0000",
+            "put_volume": 329,
+            "put_volume_ask_side": 148,
+            "put_volume_bid_side": 116,
+            "tape_time": "2024-01-09T10:20:00-05:00"
+        },
+        {
+            "ask_prem": "85681.0000",
+            "bid_prem": "63132.0000",
+            "call_premium": "97245.0000",
+            "call_volume": 360,
+            "call_volume_ask_side": 219,
+            "call_volume_bid_side": 102,
+            "date": "2024-01-09",
+            "put_premium": "63958.0000",
+            "put_volume": 277,
+            "put_volume_ask_side": 104,
+            "put_volume_bid_side": 160,
+            "tape_time": "2024-01-09T10:25:00-05:00"
+        },
+        {
+            "ask_prem": "47444.0000",
+            "bid_prem": "25621.0000",
+            "call_premium": "63104.0000",
+            "call_volume": 324,
+            "call_volume_ask_side": 265,
+            "call_volume_bid_side": 40,
+            "date": "2024-01-09",
+            "put_premium": "21372.0000",
+            "put_volume": 119,
+            "put_volume_ask_side": 42,
+            "put_volume_bid_side": 57,
+            "tape_time": "2024-01-09T10:30:00-05:00"
+        },
+        {
+            "ask_prem": "122989.0000",
+            "bid_prem": "72862.0000",
+            "call_premium": "170020.0000",
+            "call_volume": 943,
+            "call_volume_ask_side": 683,
+            "call_volume_bid_side": 199,
+            "date": "2024-01-09",
+            "put_premium": "47339.0000",
+            "put_volume": 309,
+            "put_volume_ask_side": 48,
+            "put_volume_bid_side": 221,
+            "tape_time": "2024-01-09T10:35:00-05:00"
+        },
+        {
+            "ask_prem": "209963.0000",
+            "bid_prem": "152117.0000",
+            "call_premium": "190069.0000",
+            "call_volume": 816,
+            "call_volume_ask_side": 527,
+            "call_volume_bid_side": 196,
+            "date": "2024-01-09",
+            "put_premium": "187726.0000",
+            "put_volume": 330,
+            "put_volume_ask_side": 125,
+            "put_volume_bid_side": 171,
+            "tape_time": "2024-01-09T10:40:00-05:00"
+        },
+        {
+            "ask_prem": "131575.0000",
+            "bid_prem": "138970.0000",
+            "call_premium": "160492.0000",
+            "call_volume": 1446,
+            "call_volume_ask_side": 843,
+            "call_volume_bid_side": 421,
+            "date": "2024-01-09",
+            "put_premium": "158408.0000",
+            "put_volume": 390,
+            "put_volume_ask_side": 106,
+            "put_volume_bid_side": 228,
+            "tape_time": "2024-01-09T10:45:00-05:00"
+        },
+        {
+            "ask_prem": "105853.0000",
+            "bid_prem": "109061.0000",
+            "call_premium": "120034.0000",
+            "call_volume": 560,
+            "call_volume_ask_side": 306,
+            "call_volume_bid_side": 189,
+            "date": "2024-01-09",
+            "put_premium": "115670.0000",
+            "put_volume": 501,
+            "put_volume_ask_side": 134,
+            "put_volume_bid_side": 345,
+            "tape_time": "2024-01-09T10:50:00-05:00"
+        },
+        {
+            "ask_prem": "55616.0000",
+            "bid_prem": "59397.0000",
+            "call_premium": "93466.0000",
+            "call_volume": 406,
+            "call_volume_ask_side": 181,
+            "call_volume_bid_side": 154,
+            "date": "2024-01-09",
+            "put_premium": "39749.0000",
+            "put_volume": 84,
+            "put_volume_ask_side": 38,
+            "put_volume_bid_side": 38,
+            "tape_time": "2024-01-09T10:55:00-05:00"
+        },
+        {
+            "ask_prem": "49194.0000",
+            "bid_prem": "103180.0000",
+            "call_premium": "70667.0000",
+            "call_volume": 392,
+            "call_volume_ask_side": 226,
+            "call_volume_bid_side": 110,
+            "date": "2024-01-09",
+            "put_premium": "96326.0000",
+            "put_volume": 334,
+            "put_volume_ask_side": 49,
+            "put_volume_bid_side": 236,
+            "tape_time": "2024-01-09T11:00:00-05:00"
+        },
+        {
+            "ask_prem": "20847.0000",
+            "bid_prem": "45400.0000",
+            "call_premium": "56504.0000",
+            "call_volume": 203,
+            "call_volume_ask_side": 57,
+            "call_volume_bid_side": 115,
+            "date": "2024-01-09",
+            "put_premium": "21809.0000",
+            "put_volume": 99,
+            "put_volume_ask_side": 18,
+            "put_volume_bid_side": 61,
+            "tape_time": "2024-01-09T11:05:00-05:00"
+        },
+        {
+            "ask_prem": "68405.0000",
+            "bid_prem": "139425.0000",
+            "call_premium": "132114.0000",
+            "call_volume": 504,
+            "call_volume_ask_side": 289,
+            "call_volume_bid_side": 93,
+            "date": "2024-01-09",
+            "put_premium": "154798.0000",
+            "put_volume": 317,
+            "put_volume_ask_side": 108,
+            "put_volume_bid_side": 189,
+            "tape_time": "2024-01-09T11:10:00-05:00"
+        },
+        {
+            "ask_prem": "63414.0000",
+            "bid_prem": "47688.0000",
+            "call_premium": "98855.0000",
+            "call_volume": 939,
+            "call_volume_ask_side": 570,
+            "call_volume_bid_side": 301,
+            "date": "2024-01-09",
+            "put_premium": "32108.0000",
+            "put_volume": 184,
+            "put_volume_ask_side": 84,
+            "put_volume_bid_side": 92,
+            "tape_time": "2024-01-09T11:15:00-05:00"
+        },
+        {
+            "ask_prem": "91568.0000",
+            "bid_prem": "36972.0000",
+            "call_premium": "122582.0000",
+            "call_volume": 673,
+            "call_volume_ask_side": 458,
+            "call_volume_bid_side": 154,
+            "date": "2024-01-09",
+            "put_premium": "20889.0000",
+            "put_volume": 86,
+            "put_volume_ask_side": 21,
+            "put_volume_bid_side": 40,
+            "tape_time": "2024-01-09T11:20:00-05:00"
+        },
+        {
+            "ask_prem": "58072.0000",
+            "bid_prem": "41195.0000",
+            "call_premium": "101904.0000",
+            "call_volume": 856,
+            "call_volume_ask_side": 265,
+            "call_volume_bid_side": 331,
+            "date": "2024-01-09",
+            "put_premium": "42005.0000",
+            "put_volume": 179,
+            "put_volume_ask_side": 100,
+            "put_volume_bid_side": 38,
+            "tape_time": "2024-01-09T11:25:00-05:00"
+        },
+        {
+            "ask_prem": "129450.0000",
+            "bid_prem": "64646.0000",
+            "call_premium": "179034.0000",
+            "call_volume": 535,
+            "call_volume_ask_side": 303,
+            "call_volume_bid_side": 124,
+            "date": "2024-01-09",
+            "put_premium": "52529.0000",
+            "put_volume": 280,
+            "put_volume_ask_side": 58,
+            "put_volume_bid_side": 211,
+            "tape_time": "2024-01-09T11:30:00-05:00"
+        },
+        {
+            "ask_prem": "101868.0000",
+            "bid_prem": "132740.0000",
+            "call_premium": "163621.0000",
+            "call_volume": 524,
+            "call_volume_ask_side": 320,
+            "call_volume_bid_side": 165,
+            "date": "2024-01-09",
+            "put_premium": "78294.0000",
+            "put_volume": 131,
+            "put_volume_ask_side": 55,
+            "put_volume_bid_side": 72,
+            "tape_time": "2024-01-09T11:35:00-05:00"
+        },
+        {
+            "ask_prem": "59584.0000",
+            "bid_prem": "85294.0000",
+            "call_premium": "104173.0000",
+            "call_volume": 623,
+            "call_volume_ask_side": 309,
+            "call_volume_bid_side": 237,
+            "date": "2024-01-09",
+            "put_premium": "59189.0000",
+            "put_volume": 139,
+            "put_volume_ask_side": 35,
+            "put_volume_bid_side": 65,
+            "tape_time": "2024-01-09T11:40:00-05:00"
+        },
+        {
+            "ask_prem": "46468.0000",
+            "bid_prem": "105938.0000",
+            "call_premium": "153279.0000",
+            "call_volume": 604,
+            "call_volume_ask_side": 91,
+            "call_volume_bid_side": 414,
+            "date": "2024-01-09",
+            "put_premium": "25841.0000",
+            "put_volume": 189,
+            "put_volume_ask_side": 95,
+            "put_volume_bid_side": 76,
+            "tape_time": "2024-01-09T11:45:00-05:00"
+        },
+        {
+            "ask_prem": "13543.0000",
+            "bid_prem": "35071.0000",
+            "call_premium": "46925.0000",
+            "call_volume": 304,
+            "call_volume_ask_side": 111,
+            "call_volume_bid_side": 160,
+            "date": "2024-01-09",
+            "put_premium": "14300.0000",
+            "put_volume": 99,
+            "put_volume_ask_side": 34,
+            "put_volume_bid_side": 52,
+            "tape_time": "2024-01-09T11:50:00-05:00"
+        },
+        {
+            "ask_prem": "55695.0000",
+            "bid_prem": "65846.0000",
+            "call_premium": "125777.0000",
+            "call_volume": 339,
+            "call_volume_ask_side": 221,
+            "call_volume_bid_side": 73,
+            "date": "2024-01-09",
+            "put_premium": "13050.0000",
+            "put_volume": 103,
+            "put_volume_ask_side": 69,
+            "put_volume_bid_side": 30,
+            "tape_time": "2024-01-09T11:55:00-05:00"
+        },
+        {
+            "ask_prem": "24669.0000",
+            "bid_prem": "25849.0000",
+            "call_premium": "52449.0000",
+            "call_volume": 232,
+            "call_volume_ask_side": 74,
+            "call_volume_bid_side": 122,
+            "date": "2024-01-09",
+            "put_premium": "14439.0000",
+            "put_volume": 97,
+            "put_volume_ask_side": 59,
+            "put_volume_bid_side": 34,
+            "tape_time": "2024-01-09T12:00:00-05:00"
+        },
+        {
+            "ask_prem": "48474.0000",
+            "bid_prem": "48216.0000",
+            "call_premium": "36974.0000",
+            "call_volume": 312,
+            "call_volume_ask_side": 266,
+            "call_volume_bid_side": 20,
+            "date": "2024-01-09",
+            "put_premium": "78593.0000",
+            "put_volume": 165,
+            "put_volume_ask_side": 37,
+            "put_volume_bid_side": 107,
+            "tape_time": "2024-01-09T12:05:00-05:00"
+        },
+        {
+            "ask_prem": "10337.0000",
+            "bid_prem": "31976.0000",
+            "call_premium": "31591.0000",
+            "call_volume": 153,
+            "call_volume_ask_side": 23,
+            "call_volume_bid_side": 119,
+            "date": "2024-01-09",
+            "put_premium": "13598.0000",
+            "put_volume": 104,
+            "put_volume_ask_side": 55,
+            "put_volume_bid_side": 48,
+            "tape_time": "2024-01-09T12:10:00-05:00"
+        },
+        {
+            "ask_prem": "44795.0000",
+            "bid_prem": "199151.0000",
+            "call_premium": "238731.0000",
+            "call_volume": 734,
+            "call_volume_ask_side": 133,
+            "call_volume_bid_side": 336,
+            "date": "2024-01-09",
+            "put_premium": "33588.0000",
+            "put_volume": 85,
+            "put_volume_ask_side": 53,
+            "put_volume_bid_side": 6,
+            "tape_time": "2024-01-09T12:15:00-05:00"
+        },
+        {
+            "ask_prem": "71157.0000",
+            "bid_prem": "38245.0000",
+            "call_premium": "62875.0000",
+            "call_volume": 390,
+            "call_volume_ask_side": 140,
+            "call_volume_bid_side": 122,
+            "date": "2024-01-09",
+            "put_premium": "63222.0000",
+            "put_volume": 623,
+            "put_volume_ask_side": 63,
+            "put_volume_bid_side": 539,
+            "tape_time": "2024-01-09T12:20:00-05:00"
+        },
+        {
+            "ask_prem": "117263.0000",
+            "bid_prem": "57543.0000",
+            "call_premium": "49464.0000",
+            "call_volume": 148,
+            "call_volume_ask_side": 24,
+            "call_volume_bid_side": 101,
+            "date": "2024-01-09",
+            "put_premium": "139081.0000",
+            "put_volume": 254,
+            "put_volume_ask_side": 189,
+            "put_volume_bid_side": 51,
+            "tape_time": "2024-01-09T12:25:00-05:00"
+        },
+        {
+            "ask_prem": "56635.0000",
+            "bid_prem": "57810.0000",
+            "call_premium": "77969.0000",
+            "call_volume": 308,
+            "call_volume_ask_side": 137,
+            "call_volume_bid_side": 148,
+            "date": "2024-01-09",
+            "put_premium": "43218.0000",
+            "put_volume": 70,
+            "put_volume_ask_side": 37,
+            "put_volume_bid_side": 29,
+            "tape_time": "2024-01-09T12:30:00-05:00"
+        },
+        {
+            "ask_prem": "17530.0000",
+            "bid_prem": "8286.0000",
+            "call_premium": "25730.0000",
+            "call_volume": 91,
+            "call_volume_ask_side": 44,
+            "call_volume_bid_side": 39,
+            "date": "2024-01-09",
+            "put_premium": "15756.0000",
+            "put_volume": 126,
+            "put_volume_ask_side": 27,
+            "put_volume_bid_side": 30,
+            "tape_time": "2024-01-09T12:35:00-05:00"
+        },
+        {
+            "ask_prem": "22908.0000",
+            "bid_prem": "22780.0000",
+            "call_premium": "32643.0000",
+            "call_volume": 97,
+            "call_volume_ask_side": 28,
+            "call_volume_bid_side": 58,
+            "date": "2024-01-09",
+            "put_premium": "26828.0000",
+            "put_volume": 69,
+            "put_volume_ask_side": 23,
+            "put_volume_bid_side": 29,
+            "tape_time": "2024-01-09T12:40:00-05:00"
+        },
+        {
+            "ask_prem": "24711.0000",
+            "bid_prem": "36725.0000",
+            "call_premium": "72843.0000",
+            "call_volume": 258,
+            "call_volume_ask_side": 102,
+            "call_volume_bid_side": 112,
+            "date": "2024-01-09",
+            "put_premium": "16708.0000",
+            "put_volume": 68,
+            "put_volume_ask_side": 1,
+            "put_volume_bid_side": 39,
+            "tape_time": "2024-01-09T12:45:00-05:00"
+        },
+        {
+            "ask_prem": "47422.0000",
+            "bid_prem": "92927.0000",
+            "call_premium": "169118.0000",
+            "call_volume": 530,
+            "call_volume_ask_side": 105,
+            "call_volume_bid_side": 229,
+            "date": "2024-01-09",
+            "put_premium": "14131.0000",
+            "put_volume": 100,
+            "put_volume_ask_side": 28,
+            "put_volume_bid_side": 45,
+            "tape_time": "2024-01-09T12:50:00-05:00"
+        },
+        {
+            "ask_prem": "9945.0000",
+            "bid_prem": "11405.0000",
+            "call_premium": "37860.0000",
+            "call_volume": 407,
+            "call_volume_ask_side": 55,
+            "call_volume_bid_side": 43,
+            "date": "2024-01-09",
+            "put_premium": "4039.0000",
+            "put_volume": 51,
+            "put_volume_ask_side": 8,
+            "put_volume_bid_side": 42,
+            "tape_time": "2024-01-09T12:55:00-05:00"
+        },
+        {
+            "ask_prem": "66531.0000",
+            "bid_prem": "30119.0000",
+            "call_premium": "84509.0000",
+            "call_volume": 435,
+            "call_volume_ask_side": 252,
+            "call_volume_bid_side": 138,
+            "date": "2024-01-09",
+            "put_premium": "26315.0000",
+            "put_volume": 151,
+            "put_volume_ask_side": 65,
+            "put_volume_bid_side": 47,
+            "tape_time": "2024-01-09T13:00:00-05:00"
+        },
+        {
+            "ask_prem": "28197.0000",
+            "bid_prem": "18260.0000",
+            "call_premium": "21516.0000",
+            "call_volume": 100,
+            "call_volume_ask_side": 36,
+            "call_volume_bid_side": 56,
+            "date": "2024-01-09",
+            "put_premium": "28963.0000",
+            "put_volume": 110,
+            "put_volume_ask_side": 78,
+            "put_volume_bid_side": 20,
+            "tape_time": "2024-01-09T13:05:00-05:00"
+        },
+        {
+            "ask_prem": "7204.0000",
+            "bid_prem": "5951.0000",
+            "call_premium": "12320.0000",
+            "call_volume": 92,
+            "call_volume_ask_side": 65,
+            "call_volume_bid_side": 25,
+            "date": "2024-01-09",
+            "put_premium": "1516.0000",
+            "put_volume": 34,
+            "put_volume_ask_side": 29,
+            "put_volume_bid_side": 3,
+            "tape_time": "2024-01-09T13:10:00-05:00"
+        },
+        {
+            "ask_prem": "21875.0000",
+            "bid_prem": "31074.0000",
+            "call_premium": "40132.0000",
+            "call_volume": 129,
+            "call_volume_ask_side": 42,
+            "call_volume_bid_side": 83,
+            "date": "2024-01-09",
+            "put_premium": "4014660.0000",
+            "put_volume": 1028,
+            "put_volume_ask_side": 34,
+            "put_volume_bid_side": 50,
+            "tape_time": "2024-01-09T13:15:00-05:00"
+        },
+        {
+            "ask_prem": "10485.0000",
+            "bid_prem": "4573.0000",
+            "call_premium": "16878.0000",
+            "call_volume": 74,
+            "call_volume_ask_side": 11,
+            "call_volume_bid_side": 40,
+            "date": "2024-01-09",
+            "put_premium": "5775.0000",
+            "put_volume": 41,
+            "put_volume_ask_side": 24,
+            "put_volume_bid_side": 8,
+            "tape_time": "2024-01-09T13:20:00-05:00"
+        },
+        {
+            "ask_prem": "12161.0000",
+            "bid_prem": "9808.0000",
+            "call_premium": "25978.0000",
+            "call_volume": 84,
+            "call_volume_ask_side": 30,
+            "call_volume_bid_side": 21,
+            "date": "2024-01-09",
+            "put_premium": "8262.0000",
+            "put_volume": 55,
+            "put_volume_ask_side": 10,
+            "put_volume_bid_side": 31,
+            "tape_time": "2024-01-09T13:25:00-05:00"
+        },
+        {
+            "ask_prem": "135312.0000",
+            "bid_prem": "136250.0000",
+            "call_premium": "237475.0000",
+            "call_volume": 494,
+            "call_volume_ask_side": 145,
+            "call_volume_bid_side": 321,
+            "date": "2024-01-09",
+            "put_premium": "49856.0000",
+            "put_volume": 247,
+            "put_volume_ask_side": 182,
+            "put_volume_bid_side": 50,
+            "tape_time": "2024-01-09T13:30:00-05:00"
+        },
+        {
+            "ask_prem": "15107.0000",
+            "bid_prem": "42408.0000",
+            "call_premium": "50776.0000",
+            "call_volume": 622,
+            "call_volume_ask_side": 80,
+            "call_volume_bid_side": 529,
+            "date": "2024-01-09",
+            "put_premium": "10611.0000",
+            "put_volume": 69,
+            "put_volume_ask_side": 31,
+            "put_volume_bid_side": 27,
+            "tape_time": "2024-01-09T13:35:00-05:00"
+        },
+        {
+            "ask_prem": "6549.0000",
+            "bid_prem": "21435.0000",
+            "call_premium": "29686.0000",
+            "call_volume": 166,
+            "call_volume_ask_side": 87,
+            "call_volume_bid_side": 61,
+            "date": "2024-01-09",
+            "put_premium": "4472.0000",
+            "put_volume": 58,
+            "put_volume_ask_side": 26,
+            "put_volume_bid_side": 20,
+            "tape_time": "2024-01-09T13:40:00-05:00"
+        },
+        {
+            "ask_prem": "70477.0000",
+            "bid_prem": "57447.0000",
+            "call_premium": "116802.0000",
+            "call_volume": 324,
+            "call_volume_ask_side": 186,
+            "call_volume_bid_side": 101,
+            "date": "2024-01-09",
+            "put_premium": "28190.0000",
+            "put_volume": 115,
+            "put_volume_ask_side": 61,
+            "put_volume_bid_side": 46,
+            "tape_time": "2024-01-09T13:45:00-05:00"
+        },
+        {
+            "ask_prem": "21553.0000",
+            "bid_prem": "19884.0000",
+            "call_premium": "29175.0000",
+            "call_volume": 205,
+            "call_volume_ask_side": 127,
+            "call_volume_bid_side": 60,
+            "date": "2024-01-09",
+            "put_premium": "21508.0000",
+            "put_volume": 137,
+            "put_volume_ask_side": 67,
+            "put_volume_bid_side": 37,
+            "tape_time": "2024-01-09T13:50:00-05:00"
+        },
+        {
+            "ask_prem": "23175.0000",
+            "bid_prem": "30488.0000",
+            "call_premium": "54555.0000",
+            "call_volume": 158,
+            "call_volume_ask_side": 52,
+            "call_volume_bid_side": 87,
+            "date": "2024-01-09",
+            "put_premium": "43177.0000",
+            "put_volume": 159,
+            "put_volume_ask_side": 29,
+            "put_volume_bid_side": 107,
+            "tape_time": "2024-01-09T13:55:00-05:00"
+        },
+        {
+            "ask_prem": "18526.0000",
+            "bid_prem": "11166.0000",
+            "call_premium": "25817.0000",
+            "call_volume": 100,
+            "call_volume_ask_side": 39,
+            "call_volume_bid_side": 45,
+            "date": "2024-01-09",
+            "put_premium": "25278.0000",
+            "put_volume": 90,
+            "put_volume_ask_side": 40,
+            "put_volume_bid_side": 25,
+            "tape_time": "2024-01-09T14:00:00-05:00"
+        },
+        {
+            "ask_prem": "13974.0000",
+            "bid_prem": "2475.0000",
+            "call_premium": "14646.0000",
+            "call_volume": 164,
+            "call_volume_ask_side": 129,
+            "call_volume_bid_side": 27,
+            "date": "2024-01-09",
+            "put_premium": "5612.0000",
+            "put_volume": 36,
+            "put_volume_ask_side": 17,
+            "put_volume_bid_side": 3,
+            "tape_time": "2024-01-09T14:05:00-05:00"
+        },
+        {
+            "ask_prem": "22208.0000",
+            "bid_prem": "66354.0000",
+            "call_premium": "99535.0000",
+            "call_volume": 292,
+            "call_volume_ask_side": 29,
+            "call_volume_bid_side": 244,
+            "date": "2024-01-09",
+            "put_premium": "13129.0000",
+            "put_volume": 95,
+            "put_volume_ask_side": 39,
+            "put_volume_bid_side": 55,
+            "tape_time": "2024-01-09T14:10:00-05:00"
+        },
+        {
+            "ask_prem": "81456.0000",
+            "bid_prem": "7155.0000",
+            "call_premium": "14587.0000",
+            "call_volume": 93,
+            "call_volume_ask_side": 68,
+            "call_volume_bid_side": 15,
+            "date": "2024-01-09",
+            "put_premium": "87615.0000",
+            "put_volume": 211,
+            "put_volume_ask_side": 164,
+            "put_volume_bid_side": 23,
+            "tape_time": "2024-01-09T14:15:00-05:00"
+        },
+        {
+            "ask_prem": "146397.0000",
+            "bid_prem": "140468.0000",
+            "call_premium": "237504.0000",
+            "call_volume": 1496,
+            "call_volume_ask_side": 739,
+            "call_volume_bid_side": 704,
+            "date": "2024-01-09",
+            "put_premium": "188350.0000",
+            "put_volume": 2091,
+            "put_volume_ask_side": 115,
+            "put_volume_bid_side": 1222,
+            "tape_time": "2024-01-09T14:20:00-05:00"
+        },
+        {
+            "ask_prem": "72712.0000",
+            "bid_prem": "21242.0000",
+            "call_premium": "53118.0000",
+            "call_volume": 173,
+            "call_volume_ask_side": 89,
+            "call_volume_bid_side": 77,
+            "date": "2024-01-09",
+            "put_premium": "44017.0000",
+            "put_volume": 156,
+            "put_volume_ask_side": 152,
+            "put_volume_bid_side": 1,
+            "tape_time": "2024-01-09T14:25:00-05:00"
+        },
+        {
+            "ask_prem": "321403.0000",
+            "bid_prem": "47984.0000",
+            "call_premium": "295030.0000",
+            "call_volume": 866,
+            "call_volume_ask_side": 483,
+            "call_volume_bid_side": 220,
+            "date": "2024-01-09",
+            "put_premium": "108857.0000",
+            "put_volume": 226,
+            "put_volume_ask_side": 176,
+            "put_volume_bid_side": 22,
+            "tape_time": "2024-01-09T14:30:00-05:00"
+        },
+        {
+            "ask_prem": "18149.0000",
+            "bid_prem": "49717.0000",
+            "call_premium": "60507.0000",
+            "call_volume": 167,
+            "call_volume_ask_side": 44,
+            "call_volume_bid_side": 92,
+            "date": "2024-01-09",
+            "put_premium": "17988.0000",
+            "put_volume": 110,
+            "put_volume_ask_side": 15,
+            "put_volume_bid_side": 68,
+            "tape_time": "2024-01-09T14:35:00-05:00"
+        },
+        {
+            "ask_prem": "62709.0000",
+            "bid_prem": "117753.0000",
+            "call_premium": "108199.0000",
+            "call_volume": 387,
+            "call_volume_ask_side": 79,
+            "call_volume_bid_side": 268,
+            "date": "2024-01-09",
+            "put_premium": "84943.0000",
+            "put_volume": 902,
+            "put_volume_ask_side": 466,
+            "put_volume_bid_side": 405,
+            "tape_time": "2024-01-09T14:40:00-05:00"
+        },
+        {
+            "ask_prem": "5455.0000",
+            "bid_prem": "49783.0000",
+            "call_premium": "32021.0000",
+            "call_volume": 132,
+            "call_volume_ask_side": 12,
+            "call_volume_bid_side": 17,
+            "date": "2024-01-09",
+            "put_premium": "15455684.0000",
+            "put_volume": 4395,
+            "put_volume_ask_side": 4,
+            "put_volume_bid_side": 791,
+            "tape_time": "2024-01-09T14:45:00-05:00"
+        },
+        {
+            "ask_prem": "22166.0000",
+            "bid_prem": "26573.0000",
+            "call_premium": "52967.0000",
+            "call_volume": 246,
+            "call_volume_ask_side": 138,
+            "call_volume_bid_side": 86,
+            "date": "2024-01-09",
+            "put_premium": "22042.0000",
+            "put_volume": 124,
+            "put_volume_ask_side": 54,
+            "put_volume_bid_side": 67,
+            "tape_time": "2024-01-09T14:50:00-05:00"
+        },
+        {
+            "ask_prem": "53596.0000",
+            "bid_prem": "28503.0000",
+            "call_premium": "18201.0000",
+            "call_volume": 116,
+            "call_volume_ask_side": 79,
+            "call_volume_bid_side": 24,
+            "date": "2024-01-09",
+            "put_premium": "67436.0000",
+            "put_volume": 327,
+            "put_volume_ask_side": 203,
+            "put_volume_bid_side": 117,
+            "tape_time": "2024-01-09T14:55:00-05:00"
+        },
+        {
+            "ask_prem": "32225.0000",
+            "bid_prem": "31531.0000",
+            "call_premium": "34826.0000",
+            "call_volume": 175,
+            "call_volume_ask_side": 40,
+            "call_volume_bid_side": 128,
+            "date": "2024-01-09",
+            "put_premium": "48350.0000",
+            "put_volume": 154,
+            "put_volume_ask_side": 85,
+            "put_volume_bid_side": 16,
+            "tape_time": "2024-01-09T15:00:00-05:00"
+        },
+        {
+            "ask_prem": "179904.0000",
+            "bid_prem": "73991.0000",
+            "call_premium": "77280.0000",
+            "call_volume": 228,
+            "call_volume_ask_side": 75,
+            "call_volume_bid_side": 134,
+            "date": "2024-01-09",
+            "put_premium": "183908.0000",
+            "put_volume": 352,
+            "put_volume_ask_side": 252,
+            "put_volume_bid_side": 55,
+            "tape_time": "2024-01-09T15:05:00-05:00"
+        },
+        {
+            "ask_prem": "39963.0000",
+            "bid_prem": "8065.0000",
+            "call_premium": "38858.0000",
+            "call_volume": 72,
+            "call_volume_ask_side": 33,
+            "call_volume_bid_side": 25,
+            "date": "2024-01-09",
+            "put_premium": "21992.0000",
+            "put_volume": 69,
+            "put_volume_ask_side": 32,
+            "put_volume_bid_side": 26,
+            "tape_time": "2024-01-09T15:10:00-05:00"
+        },
+        {
+            "ask_prem": "13348.0000",
+            "bid_prem": "13394.0000",
+            "call_premium": "21402.0000",
+            "call_volume": 94,
+            "call_volume_ask_side": 30,
+            "call_volume_bid_side": 55,
+            "date": "2024-01-09",
+            "put_premium": "7869.0000",
+            "put_volume": 41,
+            "put_volume_ask_side": 32,
+            "put_volume_bid_side": 6,
+            "tape_time": "2024-01-09T15:15:00-05:00"
+        },
+        {
+            "ask_prem": "5278.0000",
+            "bid_prem": "12170.0000",
+            "call_premium": "19120.0000",
+            "call_volume": 148,
+            "call_volume_ask_side": 26,
+            "call_volume_bid_side": 87,
+            "date": "2024-01-09",
+            "put_premium": "6961.0000",
+            "put_volume": 36,
+            "put_volume_ask_side": 3,
+            "put_volume_bid_side": 32,
+            "tape_time": "2024-01-09T15:20:00-05:00"
+        },
+        {
+            "ask_prem": "45344.0000",
+            "bid_prem": "30796.0000",
+            "call_premium": "108002.0000",
+            "call_volume": 280,
+            "call_volume_ask_side": 95,
+            "call_volume_bid_side": 109,
+            "date": "2024-01-09",
+            "put_premium": "9880.0000",
+            "put_volume": 67,
+            "put_volume_ask_side": 7,
+            "put_volume_bid_side": 35,
+            "tape_time": "2024-01-09T15:25:00-05:00"
+        },
+        {
+            "ask_prem": "29104.0000",
+            "bid_prem": "12339.0000",
+            "call_premium": "10090.0000",
+            "call_volume": 91,
+            "call_volume_ask_side": 65,
+            "call_volume_bid_side": 13,
+            "date": "2024-01-09",
+            "put_premium": "40198.0000",
+            "put_volume": 76,
+            "put_volume_ask_side": 22,
+            "put_volume_bid_side": 34,
+            "tape_time": "2024-01-09T15:30:00-05:00"
+        },
+        {
+            "ask_prem": "26706.0000",
+            "bid_prem": "56528.0000",
+            "call_premium": "46505.0000",
+            "call_volume": 186,
+            "call_volume_ask_side": 118,
+            "call_volume_bid_side": 56,
+            "date": "2024-01-09",
+            "put_premium": "9854695.0000",
+            "put_volume": 2473,
+            "put_volume_ask_side": 12,
+            "put_volume_bid_side": 175,
+            "tape_time": "2024-01-09T15:35:00-05:00"
+        },
+        {
+            "ask_prem": "25519.0000",
+            "bid_prem": "19911.0000",
+            "call_premium": "48462.0000",
+            "call_volume": 123,
+            "call_volume_ask_side": 43,
+            "call_volume_bid_side": 34,
+            "date": "2024-01-09",
+            "put_premium": "20396.0000",
+            "put_volume": 133,
+            "put_volume_ask_side": 97,
+            "put_volume_bid_side": 24,
+            "tape_time": "2024-01-09T15:40:00-05:00"
+        },
+        {
+            "ask_prem": "16270.0000",
+            "bid_prem": "36532.0000",
+            "call_premium": "34090.0000",
+            "call_volume": 260,
+            "call_volume_ask_side": 105,
+            "call_volume_bid_side": 124,
+            "date": "2024-01-09",
+            "put_premium": "33745.0000",
+            "put_volume": 132,
+            "put_volume_ask_side": 46,
+            "put_volume_bid_side": 54,
+            "tape_time": "2024-01-09T15:45:00-05:00"
+        },
+        {
+            "ask_prem": "11887.0000",
+            "bid_prem": "27453.0000",
+            "call_premium": "20980.0000",
+            "call_volume": 252,
+            "call_volume_ask_side": 186,
+            "call_volume_bid_side": 52,
+            "date": "2024-01-09",
+            "put_premium": "21260.0000",
+            "put_volume": 84,
+            "put_volume_ask_side": 29,
+            "put_volume_bid_side": 43,
+            "tape_time": "2024-01-09T15:50:00-05:00"
+        },
+        {
+            "ask_prem": "55161.0000",
+            "bid_prem": "124416.0000",
+            "call_premium": "95812.0000",
+            "call_volume": 964,
+            "call_volume_ask_side": 172,
+            "call_volume_bid_side": 767,
+            "date": "2024-01-09",
+            "put_premium": "88676.0000",
+            "put_volume": 769,
+            "put_volume_ask_side": 336,
+            "put_volume_bid_side": 419,
+            "tape_time": "2024-01-09T15:55:00-05:00"
+        }
+    ],
+    "underlying_data": [
+        {
+            "close": 69.76,
+            "start_time": "2024-01-09T09:30:00-05:00"
+        },
+        {
+            "close": 69.9,
+            "start_time": "2024-01-09T09:35:00-05:00"
+        },
+        {
+            "close": 69.335,
+            "start_time": "2024-01-09T09:40:00-05:00"
+        },
+        {
+            "close": 69.44,
+            "start_time": "2024-01-09T09:45:00-05:00"
+        },
+        {
+            "close": 68.93,
+            "start_time": "2024-01-09T09:50:00-05:00"
+        },
+        {
+            "close": 69.455,
+            "start_time": "2024-01-09T09:55:00-05:00"
+        },
+        {
+            "close": 69.3,
+            "start_time": "2024-01-09T10:00:00-05:00"
+        },
+        {
+            "close": 69.6299,
+            "start_time": "2024-01-09T10:05:00-05:00"
+        },
+        {
+            "close": 69.6501,
+            "start_time": "2024-01-09T10:10:00-05:00"
+        },
+        {
+            "close": 69.815,
+            "start_time": "2024-01-09T10:15:00-05:00"
+        },
+        {
+            "close": 69.865,
+            "start_time": "2024-01-09T10:20:00-05:00"
+        },
+        {
+            "close": 69.85,
+            "start_time": "2024-01-09T10:25:00-05:00"
+        },
+        {
+            "close": 69.8444,
+            "start_time": "2024-01-09T10:30:00-05:00"
+        },
+        {
+            "close": 70.15,
+            "start_time": "2024-01-09T10:35:00-05:00"
+        },
+        {
+            "close": 70.1598,
+            "start_time": "2024-01-09T10:40:00-05:00"
+        },
+        {
+            "close": 70.26,
+            "start_time": "2024-01-09T10:45:00-05:00"
+        },
+        {
+            "close": 70.13,
+            "start_time": "2024-01-09T10:50:00-05:00"
+        },
+        {
+            "close": 70.02,
+            "start_time": "2024-01-09T10:55:00-05:00"
+        },
+        {
+            "close": 70.2257,
+            "start_time": "2024-01-09T11:00:00-05:00"
+        },
+        {
+            "close": 70.18,
+            "start_time": "2024-01-09T11:05:00-05:00"
+        },
+        {
+            "close": 70.315,
+            "start_time": "2024-01-09T11:10:00-05:00"
+        },
+        {
+            "close": 70.375,
+            "start_time": "2024-01-09T11:15:00-05:00"
+        },
+        {
+            "close": 70.395,
+            "start_time": "2024-01-09T11:20:00-05:00"
+        },
+        {
+            "close": 70.39,
+            "start_time": "2024-01-09T11:25:00-05:00"
+        },
+        {
+            "close": 70.425,
+            "start_time": "2024-01-09T11:30:00-05:00"
+        },
+        {
+            "close": 70.53,
+            "start_time": "2024-01-09T11:35:00-05:00"
+        },
+        {
+            "close": 70.46,
+            "start_time": "2024-01-09T11:40:00-05:00"
+        },
+        {
+            "close": 70.3122,
+            "start_time": "2024-01-09T11:45:00-05:00"
+        },
+        {
+            "close": 70.365,
+            "start_time": "2024-01-09T11:50:00-05:00"
+        },
+        {
+            "close": 70.3,
+            "start_time": "2024-01-09T11:55:00-05:00"
+        },
+        {
+            "close": 70.225,
+            "start_time": "2024-01-09T12:00:00-05:00"
+        },
+        {
+            "close": 70.395,
+            "start_time": "2024-01-09T12:05:00-05:00"
+        },
+        {
+            "close": 70.243,
+            "start_time": "2024-01-09T12:10:00-05:00"
+        },
+        {
+            "close": 70.025,
+            "start_time": "2024-01-09T12:15:00-05:00"
+        },
+        {
+            "close": 69.9999,
+            "start_time": "2024-01-09T12:20:00-05:00"
+        },
+        {
+            "close": 69.97,
+            "start_time": "2024-01-09T12:25:00-05:00"
+        },
+        {
+            "close": 69.915,
+            "start_time": "2024-01-09T12:30:00-05:00"
+        },
+        {
+            "close": 69.87,
+            "start_time": "2024-01-09T12:35:00-05:00"
+        },
+        {
+            "close": 69.8987,
+            "start_time": "2024-01-09T12:40:00-05:00"
+        },
+        {
+            "close": 69.9,
+            "start_time": "2024-01-09T12:45:00-05:00"
+        },
+        {
+            "close": 69.9883,
+            "start_time": "2024-01-09T12:50:00-05:00"
+        },
+        {
+            "close": 70.1101,
+            "start_time": "2024-01-09T12:55:00-05:00"
+        },
+        {
+            "close": 70.258,
+            "start_time": "2024-01-09T13:00:00-05:00"
+        },
+        {
+            "close": 70.19,
+            "start_time": "2024-01-09T13:05:00-05:00"
+        },
+        {
+            "close": 70.26,
+            "start_time": "2024-01-09T13:10:00-05:00"
+        },
+        {
+            "close": 70.16,
+            "start_time": "2024-01-09T13:15:00-05:00"
+        },
+        {
+            "close": 70.04,
+            "start_time": "2024-01-09T13:20:00-05:00"
+        },
+        {
+            "close": 70.0099,
+            "start_time": "2024-01-09T13:25:00-05:00"
+        },
+        {
+            "close": 69.835,
+            "start_time": "2024-01-09T13:30:00-05:00"
+        },
+        {
+            "close": 69.965,
+            "start_time": "2024-01-09T13:35:00-05:00"
+        },
+        {
+            "close": 69.8063,
+            "start_time": "2024-01-09T13:40:00-05:00"
+        },
+        {
+            "close": 69.955,
+            "start_time": "2024-01-09T13:45:00-05:00"
+        },
+        {
+            "close": 70.1199,
+            "start_time": "2024-01-09T13:50:00-05:00"
+        },
+        {
+            "close": 70.115,
+            "start_time": "2024-01-09T13:55:00-05:00"
+        },
+        {
+            "close": 70.1,
+            "start_time": "2024-01-09T14:00:00-05:00"
+        },
+        {
+            "close": 70.1601,
+            "start_time": "2024-01-09T14:05:00-05:00"
+        },
+        {
+            "close": 70.02,
+            "start_time": "2024-01-09T14:10:00-05:00"
+        },
+        {
+            "close": 69.87,
+            "start_time": "2024-01-09T14:15:00-05:00"
+        },
+        {
+            "close": 69.8,
+            "start_time": "2024-01-09T14:20:00-05:00"
+        },
+        {
+            "close": 69.73,
+            "start_time": "2024-01-09T14:25:00-05:00"
+        },
+        {
+            "close": 69.8002,
+            "start_time": "2024-01-09T14:30:00-05:00"
+        },
+        {
+            "close": 69.67,
+            "start_time": "2024-01-09T14:35:00-05:00"
+        },
+        {
+            "close": 69.57,
+            "start_time": "2024-01-09T14:40:00-05:00"
+        },
+        {
+            "close": 69.6699,
+            "start_time": "2024-01-09T14:45:00-05:00"
+        },
+        {
+            "close": 69.71,
+            "start_time": "2024-01-09T14:50:00-05:00"
+        },
+        {
+            "close": 69.845,
+            "start_time": "2024-01-09T14:55:00-05:00"
+        },
+        {
+            "close": 69.85,
+            "start_time": "2024-01-09T15:00:00-05:00"
+        },
+        {
+            "close": 69.535,
+            "start_time": "2024-01-09T15:05:00-05:00"
+        },
+        {
+            "close": 69.53,
+            "start_time": "2024-01-09T15:10:00-05:00"
+        },
+        {
+            "close": 69.5746,
+            "start_time": "2024-01-09T15:15:00-05:00"
+        },
+        {
+            "close": 69.5,
+            "start_time": "2024-01-09T15:20:00-05:00"
+        },
+        {
+            "close": 69.5284,
+            "start_time": "2024-01-09T15:25:00-05:00"
+        },
+        {
+            "close": 69.5452,
+            "start_time": "2024-01-09T15:30:00-05:00"
+        },
+        {
+            "close": 69.49,
+            "start_time": "2024-01-09T15:35:00-05:00"
+        },
+        {
+            "close": 69.39,
+            "start_time": "2024-01-09T15:40:00-05:00"
+        },
+        {
+            "close": 69.378,
+            "start_time": "2024-01-09T15:45:00-05:00"
+        },
+        {
+            "close": 69.62,
+            "start_time": "2024-01-09T15:50:00-05:00"
+        },
+        {
+            "close": 69.5389,
+            "start_time": "2024-01-09T15:55:00-05:00"
+        }
+    ]
+}
