@@ -87,6 +87,10 @@ def read_and_print_json(file_path):
 json_file_path = "./data"
 option_chain_url="https://phx.unusualwhales.com/api/historic_chains/"
 
+def extract_key_values(description):
+    # Use regular expressions to extract key-values from the description
+    matches = re.findall(r'\*\*(.*?)\*\*: (.*?)\n', description)
+    return dict(matches)
 def count_distinct_values(table, column_name):
     # Get the index of the specified column
     column_index = table.field_names.index(column_name) if column_name in table.field_names else -1
@@ -105,5 +109,32 @@ def count_distinct_values(table, column_name):
     else:
         print(f"Error: Column '{column_name}' not found in the table.")
 # Replace with the actual path to your JSON file
-read_and_print_json(json_file_path)
+def read_and_print_json():
+    print(f"START---")
+    file_path = "./live_options_flow_data"
+    with open(file_path, 'r') as file:
+        json_data = json.load(file)
+
+    # Extract and transform descriptions from each JSON object
+    transformed_descriptions = [extract_and_transform_description(obj) for obj in json_data]
+
+    table = PrettyTable()
+    table.field_names = ["Index", "Transformed Description"]
+
+    # Add data to the table
+    for i, transformed_description in enumerate(transformed_descriptions, 1):
+        table.add_row([i, transformed_description])
+
+    # Print the table
+    print(table)
+
+
+def extract_and_transform_description(json_object):
+    embeds = json_object.get("embeds", [{}])
+    description = embeds[0].get("description", "")
+    # Transform the description attributes to comma-separated values
+    transformed_description = description.replace('\n', ', ')
+    return transformed_description
+
+read_and_print_json()
 
