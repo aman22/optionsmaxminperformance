@@ -91,24 +91,7 @@ def extract_key_values(description):
     # Use regular expressions to extract key-values from the description
     matches = re.findall(r'\*\*(.*?)\*\*: (.*?)\n', description)
     return dict(matches)
-def count_distinct_values(table, column_name):
-    # Get the index of the specified column
-    column_index = table.field_names.index(column_name) if column_name in table.field_names else -1
 
-    if column_index != -1:
-        # Extract values from the specified column
-        column_values = [row[column_index] for row in table.rows]
-
-        # Count distinct values using Counter
-        distinct_values_count = Counter(column_values)
-
-        # Print the results
-        print(f"Distinct values in '{column_name}':")
-        for value, count in distinct_values_count.items():
-            print(f"{value}: {count}")
-    else:
-        print(f"Error: Column '{column_name}' not found in the table.")
-# Replace with the actual path to your JSON file
 def read_and_print_json():
     print(f"START---")
     file_path = "./live_options_flow_data"
@@ -116,25 +99,50 @@ def read_and_print_json():
         json_data = json.load(file)
 
     # Extract and transform descriptions from each JSON object
-    transformed_descriptions = [extract_and_transform_description(obj) for obj in json_data]
+    discord_alerts = [extract_discord_alerts(obj) for obj in json_data]
+    for alert in discord_alerts:
+        print(alert)
 
-    table = PrettyTable()
-    table.field_names = ["Index", "Transformed Description"]
+def extract_discord_alerts(data):
+    embed_data = data.get('embeds', [])[0]
+    discord_alert_instance = DiscordAlert(embed_data)
 
-    # Add data to the table
-    for i, transformed_description in enumerate(transformed_descriptions, 1):
-        table.add_row([i, transformed_description])
+    return discord_alert_instance
 
-    # Print the table
-    print(table)
+class DiscordAlert:
+    def __init__(self, data):
+        self.title = data.get('title', '')
+        self.description = data.get('description', '')
+        self.timestamp = data.get('timestamp', '')
 
+    def __str__(self):
+        return f"Title: {self.title}\nDescription: {self.description}\nTimestamp: {self.timestamp}"
 
-def extract_and_transform_description(json_object):
-    embeds = json_object.get("embeds", [{}])
-    description = embeds[0].get("description", "")
-    # Transform the description attributes to comma-separated values
-    transformed_description = description.replace('\n', ', ')
-    return transformed_description
+class OptionsData:
+    def __init__(self, url, time_and_sales_url, interval_volume, open_interest, vol_oi, otm, bid_ask_percent, premium, average_fill, multi_leg_volume):
+        self.url = url
+        self.time_and_sales_url = time_and_sales_url
+        self.interval_volume = interval_volume
+        self.open_interest = open_interest
+        self.vol_oi = vol_oi
+        self.otm = otm
+        self.bid_ask_percent = bid_ask_percent
+        self.premium = premium
+        self.average_fill = average_fill
+        self.multi_leg_volume = multi_leg_volume
+
+        # Extracting Ticker, Strike, Type, expiration date, and days to expiry (DTE) from the URL
+        match = re.match(r'.*chain=(\w+)(\d+)([CP])(\d{2}/\d{2}/\d{4}).*DTE=(\d+).*', url)
+        if match:
+            self.ticker, self.strike, self.option_type, self.expiration_date, self.days_to_expiry = match.groups()
+        else:
+            self.ticker, self.strike, self.option_type, self.expiration_date, self.days_to_expiry = '', '', '', '', ''
+
+    def __str__(self):
+        return f"{self.ticker}, {self.strike}, {self.option_type}, {self.expiration_date}, {self.days_to_expiry}, " \
+               f"{self.url}, {self.time_and_sales_url}, {self.interval_volume}, {self.open_interest}, {self.vol_oi}, " \
+               f"{self.otm}, {self.bid_ask_percent}, {self.premium}, {self.average_fill}, {self.multi_leg_volume}"
+
 
 read_and_print_json()
 

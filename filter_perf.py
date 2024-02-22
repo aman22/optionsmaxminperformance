@@ -107,3 +107,28 @@ def count_distinct_values(table, column_name):
 # Replace with the actual path to your JSON file
 read_and_print_json(json_file_path)
 
+class Option:
+    def __init__(self, ticker, strike, option_type, expiration_date, days_to_expiry, link, vol, oi, otm, bid, ask, premium, price, multi):
+        self.ticker = ticker
+        self.strike = strike
+        self.option_type = option_type
+        self.expiration_date = expiration_date
+        self.days_to_expiry = days_to_expiry
+        self.link = link
+        self.vol = vol
+        self.oi = oi
+        self.otm = otm
+        self.bid = bid
+        self.ask = ask
+        self.premium = premium
+        self.price = price
+        self.multi = multi
+
+    def print_comma_separated_values(self):
+        values = [
+            str(self.ticker), str(self.strike), str(self.option_type),
+            str(self.expiration_date), str(self.days_to_expiry), str(self.link),
+            str(self.vol), str(self.oi), str(self.otm), str(self.bid),
+            str(self.ask), str(self.premium), str(self.price), str(self.multi)
+        ]
+        print(', '.join(values))
