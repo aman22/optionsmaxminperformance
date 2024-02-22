@@ -5,6 +5,7 @@ from helper import getChainDataFromUW
 from helper import extract_characters_until_first_number
 from helper import isExpired
 from helper import getDate
+from options_data import OptionsData
 import re
 
 import time
@@ -51,36 +52,6 @@ def process_each_option(options_data, filter_data, result):
     if max_avg_price > (price * percentage_threshold):
         result.success = True
 
-def read_and_print_json(file_path):
-    print(f"START---")
-    results = []
-    try:
-        # Open the JSON file for reading
-        with open(file_path, 'r') as file:
-            # Load the JSON data
-            print(f"FILE OPEN ---")
-            fileData = json.load(file)
-            # alert_array = fileData.get('alerts')
-
-            for filter_data in fileData:
-                history_url = option_chain_url + filter_data.get('option_chain_id') + '?date=' + filter_data.get('expiry')
-                # print(history_url)
-                options_data = getChainDataFromUW(history_url)
-                # print(options_data)
-                # print(isExpired(filter_data.get('expiry')))
-                # def __init__(self, trade_date, expiration_date, contract, success, sector, max_avg_price, spot):
-                result = Result(filter_data.get('executed_at'), filter_data.get('expiry'), filter_data.get('option_chain_id'),
-                                False, filter_data.get('sector'), 0.0, filter_data.get('price'))
-                process_each_option(options_data.get('chains'), filter_data, result)
-                results.append(result)
-                print(result)
-                #break
-            else:
-                print("Error: JSON data is not an array.")
-    except FileNotFoundError:
-        print(f"Error: File '{file_path}' not found.")
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}")
 
 # Example usage:
 # json_file_path = "./data-1row"
@@ -99,14 +70,31 @@ def read_and_print_json():
         json_data = json.load(file)
 
     # Extract and transform descriptions from each JSON object
+    table = PrettyTable()
+    table.field_names = [
+        "Alert Type", "Type","Alert Time","Ticker", "Strike",  "Expiration", "DTE", "Interval Volume",
+        "Open Interest", "Vol/OI", "OTM", "Bid/Ask %", "Premium", "Average Fill", "Multi-leg Volume", "URL", "Time and Sales URL"
+    ]
     discord_alerts = [extract_discord_alerts(obj) for obj in json_data]
-    for alert in discord_alerts:
-        print(alert)
+    for discord_alert in discord_alerts:
+        options_data = OptionsData(discord_alert.title, discord_alert.timestamp, discord_alert.description)
+        table.add_row([
+            discord_alert.title, options_data.option_type, discord_alert.timestamp, options_data.ticker, options_data.strike, options_data.expiration_date, options_data.days_to_expiry,
+             options_data.interval_volume, options_data.open_interest, options_data.vol_oi,
+            f"{options_data.otm}%", options_data.bid_ask_percent, options_data.premium, options_data.average_fill, options_data.multi_leg_volume, options_data.url, options_data.time_and_sales_url
+        ])
+
+    # for option in options_data:
+    #     print(option)
+    print(table)
+
+def extract_options_data(data):
+    options_data = OptionsData(data)
+    return options_data
 
 def extract_discord_alerts(data):
     embed_data = data.get('embeds', [])[0]
     discord_alert_instance = DiscordAlert(embed_data)
-
     return discord_alert_instance
 
 class DiscordAlert:
@@ -117,32 +105,6 @@ class DiscordAlert:
 
     def __str__(self):
         return f"Title: {self.title}\nDescription: {self.description}\nTimestamp: {self.timestamp}"
-
-class OptionsData:
-    def __init__(self, url, time_and_sales_url, interval_volume, open_interest, vol_oi, otm, bid_ask_percent, premium, average_fill, multi_leg_volume):
-        self.url = url
-        self.time_and_sales_url = time_and_sales_url
-        self.interval_volume = interval_volume
-        self.open_interest = open_interest
-        self.vol_oi = vol_oi
-        self.otm = otm
-        self.bid_ask_percent = bid_ask_percent
-        self.premium = premium
-        self.average_fill = average_fill
-        self.multi_leg_volume = multi_leg_volume
-
-        # Extracting Ticker, Strike, Type, expiration date, and days to expiry (DTE) from the URL
-        match = re.match(r'.*chain=(\w+)(\d+)([CP])(\d{2}/\d{2}/\d{4}).*DTE=(\d+).*', url)
-        if match:
-            self.ticker, self.strike, self.option_type, self.expiration_date, self.days_to_expiry = match.groups()
-        else:
-            self.ticker, self.strike, self.option_type, self.expiration_date, self.days_to_expiry = '', '', '', '', ''
-
-    def __str__(self):
-        return f"{self.ticker}, {self.strike}, {self.option_type}, {self.expiration_date}, {self.days_to_expiry}, " \
-               f"{self.url}, {self.time_and_sales_url}, {self.interval_volume}, {self.open_interest}, {self.vol_oi}, " \
-               f"{self.otm}, {self.bid_ask_percent}, {self.premium}, {self.average_fill}, {self.multi_leg_volume}"
-
 
 read_and_print_json()
 
