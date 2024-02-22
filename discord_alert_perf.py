@@ -32,7 +32,8 @@ class Result:
         return (f"{extract_characters_until_first_number(self.contract)}, {self.trade_date}, {self.expiration_date}, {self.contract}, {self.success}, "
                 f"{self.spot}, {self.max_avg_price}, {self.sector}")
 
-def process_each_option(options_data, filter_data, result):
+# def process_each_option(options_data, filter_data, result):
+def process_each_option(options_data):
 
     #print('Trade execution date - ' + filter_data.get('executed_at') + ' ' + filter_data.get('option_chain_id'))
     trade_date = getDate(filter_data.get('executed_at'))
