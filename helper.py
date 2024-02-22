@@ -46,12 +46,27 @@ def get_live_options_flow():
 
 def getDate(long_date):
     # Convert the string to a datetime object
-    date_object = datetime.strptime(long_date, "%Y-%m-%dT%H:%M:%S.%fZ")
+
+    date_object = datetime.strptime(long_date, "%Y-%m-%dT%H:%M:%S.%f%z")
     # Extract the date
     formatted_date = date_object.strftime("%Y-%m-%d")
     # print("Extracted date:", formatted_date)
     return formatted_date
+# //%Y-%m-%dT%H:%M:%S.%f%z
+def convert_to_desired_format(timestamp_str):
+    try:
+        # Attempt to parse with milliseconds format
+        timestamp_obj = datetime.strptime(timestamp_str, '%Y-%m-%dT%H:%M:%S.%f%z')
+    except ValueError:
+        try:
+            # Attempt to parse without milliseconds format
+            timestamp_obj = datetime.strptime(timestamp_str, '%Y-%m-%dT%H:%M:%S%z')
+        except ValueError:
+            raise ValueError("Invalid timestamp format")
 
+    # Format the timestamp as '%Y-%m-%d %H:%M:%S'
+    formatted_timestamp = timestamp_obj.strftime('%Y-%m-%d %H:%M:%S')
+    return formatted_timestamp
 def isExpired(string_date):
     try:
         date_object = datetime.strptime(string_date, "%Y-%m-%d")

@@ -46,7 +46,7 @@ def read_and_print_json(file_path):
 
 # Example usage:
 #json_file_path = "/Users/amandetail/PycharmProjects/optionsmaxminperformance/data"
-json_file_path = "/Users/amandetail/PycharmProjects/optionsmaxminperformance/data-1row"
+json_file_path = "/data_files/data-1row"
 
 def count_distinct_values(table, column_name):
     # Get the index of the specified column

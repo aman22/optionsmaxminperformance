@@ -1,8 +1,9 @@
 import re
-import datetime
+from datetime import datetime
 
 class OptionsData:
     def __init__(self, title, timestamp, input_string):
+        self.success = False
         self.title = title
         self.timestamp = timestamp
         self.url = None
@@ -20,6 +21,7 @@ class OptionsData:
         self.option_type = None
         self.expiration_date = None
         self.days_to_expiry = None
+        self.max_avg_price = 0
         if input_string:
             self.populate_from_string(input_string)
 
@@ -84,11 +86,26 @@ class OptionsData:
         if match_ticker_info:
             self.ticker, self.strike, self.option_type, self.expiration_date, self.days_to_expiry = match_ticker_info.groups()
 
+
     def __str__(self):
         return f"{self.title},{self.timestamp},{self.ticker}, {self.strike}, {self.option_type}, {self.expiration_date}, {self.days_to_expiry}, " \
                f"{self.interval_volume}, {self.open_interest}, {self.vol_oi}, " \
                f"{self.otm}, {self.bid_ask_percent}, {self.premium}, {self.average_fill}, {self.multi_leg_volume}, {self.url}, {self.time_and_sales_url}"
 
+def convert_to_desired_format(timestamp_str):
+    try:
+        # Attempt to parse with milliseconds format
+        timestamp_obj = datetime.strptime(timestamp_str, '%Y-%m-%dT%H:%M:%S.%f%z')
+    except ValueError:
+        try:
+            # Attempt to parse without milliseconds format
+            timestamp_obj = datetime.strptime(timestamp_str, '%Y-%m-%dT%H:%M:%S%z')
+        except ValueError:
+            raise ValueError("Invalid timestamp format")
+
+    # Format the timestamp as '%Y-%m-%d %H:%M:%S'
+    formatted_timestamp = timestamp_obj.strftime('%Y-%m-%d %H:%M:%S')
+    return formatted_timestamp
 # Example usage:
 # input_string = "...your input string..."
 # print(options_data)

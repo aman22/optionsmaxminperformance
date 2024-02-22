@@ -20,6 +20,3 @@ class TestOptionsData(unittest.TestCase):
         self.assertEqual(options_data.option_type, "P")
         self.assertEqual(options_data.expiration_date, "02/23/2024")
         self.assertEqual(options_data.days_to_expiry, "3")
-
-if __name__ == '__main__':
-    unittest.main()

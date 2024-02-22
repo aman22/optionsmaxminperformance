@@ -84,7 +84,7 @@ def read_and_print_json(file_path):
 
 # Example usage:
 # json_file_path = "./data-1row"
-json_file_path = "./data"
+json_file_path = "data_files/data"
 option_chain_url="https://phx.unusualwhales.com/api/historic_chains/"
 
 def count_distinct_values(table, column_name):
