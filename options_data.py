@@ -4,6 +4,8 @@ from datetime import datetime
 class OptionsData:
     def __init__(self, title, timestamp, input_string):
         self.success = False
+        self.isProfit = False
+        self.profitPercent = 0.0
         self.title = title
         self.timestamp = timestamp
         self.url = None
@@ -13,15 +15,16 @@ class OptionsData:
         self.vol_oi = 0
         self.otm = 0
         self.bid_ask_percent = "0/0"
-        self.premium = "$0"
-        self.average_fill = "$0"
+        self.premium = 0.0
+        self.average_fill = 0.0
         self.multi_leg_volume = "0%"
         self.ticker = None
         self.strike = None
         self.option_type = None
         self.expiration_date = None
         self.days_to_expiry = None
-        self.max_avg_price = 0
+        self.max_avg_price = 0.0
+        self.min_avg_price = 0.0
         if input_string:
             self.populate_from_string(input_string)
 
@@ -62,13 +65,13 @@ class OptionsData:
         if match_bid_ask_percent:
             self.bid_ask_percent = f"{match_bid_ask_percent.group(1)}/{match_bid_ask_percent.group(2)}"
 
-        match_premium = re.search(r'Premium: (\$[\d,]+)', input_string)
+        match_premium = re.search(r'Premium: \$([\d,]+(?:\.\d{2})?)', input_string)
         if match_premium:
-            self.premium = match_premium.group(1)
+            self.premium = float(match_premium.group(1).replace(',', ''))
 
-        match_average_fill = re.search(r'Average Fill: (\$[\d.]+)', input_string)
+        match_average_fill = re.search(r'Average Fill: \$([\d,]+(?:\.\d{2})?)', input_string)
         if match_average_fill:
-            self.average_fill = match_average_fill.group(1)
+            self.average_fill = float(match_average_fill.group(1).replace(',', ''))
 
         match_multi_leg_volume = re.search(r'Multi-leg Volume: (\d+%)', input_string)
         if match_multi_leg_volume:
@@ -101,7 +104,7 @@ def convert_to_desired_format(timestamp_str):
             # Attempt to parse without milliseconds format
             timestamp_obj = datetime.strptime(timestamp_str, '%Y-%m-%dT%H:%M:%S%z')
         except ValueError:
-            raise ValueError("Invalid timestamp format")
+            raise ValueError("Invalid timestamp format : ", timestamp_str)
 
     # Format the timestamp as '%Y-%m-%d %H:%M:%S'
     formatted_timestamp = timestamp_obj.strftime('%Y-%m-%d %H:%M:%S')
@@ -109,3 +112,30 @@ def convert_to_desired_format(timestamp_str):
 # Example usage:
 # input_string = "...your input string..."
 # print(options_data)
+def options_data_serializer(obj):
+    if isinstance(obj, OptionsData):
+        return {
+            "success": obj.success,
+            "isProfit": obj.isProfit,
+            "profitPercent": obj.profitPercent,
+            "title": obj.title,
+            "timestamp": obj.timestamp,
+            "url": obj.url,
+            "time_and_sales_url": obj.time_and_sales_url,
+            "interval_volume": obj.interval_volume,
+            "open_interest": obj.open_interest,
+            "vol_oi": obj.vol_oi,
+            "otm": obj.otm,
+            "bid_ask_percent": obj.bid_ask_percent,
+            "premium": obj.premium,
+            "average_fill": obj.average_fill,
+            "multi_leg_volume": obj.multi_leg_volume,
+            "ticker": obj.ticker,
+            "strike": obj.strike,
+            "option_type": obj.option_type,
+            "expiration_date": obj.expiration_date,
+            "days_to_expiry": obj.days_to_expiry,
+            "max_avg_price": obj.max_avg_price,
+            "min_avg_price": obj.min_avg_price,
+        }
+    raise TypeError(f"Object of type {type(obj)} is not JSON serializable")

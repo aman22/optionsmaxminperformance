@@ -1,466 +1,6 @@
 [
     {
-        "id": "1207394235980972113",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[CGC 3.5 C 04/19/2024 (65 DTE)](https://unusualwhales.com/flow/option_chains?chain=CGC240419C00003500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CGC240419C00003500)\nInterval Volume: 1,570\nOpen Interest: 35\nVol/OI: 44.86\nOTM: 0%\nBid/Ask %: 0/100\nPremium: $76,930\nAverage Fill: $0.49\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T18:33:36.651000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T18:33:38.158000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207393807478427758",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[BTAI 3.5 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=BTAI240315C00003500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=BTAI240315C00003500)\nOverall Volume: 5,103\nOpen Interest: 269\nVol/OI: 18.97\nOTM: 6%\nBid/Ask %: 1/99\nPremium: $153,480\nAverage Fill: $0.30\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T18:31:50+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T18:31:55.995000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207393806715060335",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[BTAI 3.5 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=BTAI240315C00003500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=BTAI240315C00003500)\nInterval Volume: 2,525\nOpen Interest: 269\nVol/OI: 9.39\nOTM: 6%\nBid/Ask %: 0/100\nPremium: $75,750\nAverage Fill: $0.30\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T18:31:49.903000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T18:31:55.813000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207389036151447572",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[GGAL 15 P 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=GGAL240315P00015000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=GGAL240315P00015000)\nInterval Volume: 5,000\nOpen Interest: 0\nVol/OI: -\nOTM: 24%\nBid/Ask %: 0/100\nPremium: $94,959\nAverage Fill: $0.19\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T18:12:57.243000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T18:12:58.422000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207385795099365407",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[RKLB 7 C 04/19/2024 (65 DTE)](https://unusualwhales.com/flow/option_chains?chain=RKLB240419C00007000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RKLB240419C00007000)\nOverall Volume: 10,073\nOpen Interest: 5,106\nVol/OI: 1.97\nOTM: 53%\nBid/Ask %: 3/97\nPremium: $117,619\nAverage Fill: $0.12\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T18:00:04+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T18:00:05.695000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207385737578815599",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[AFRM 32 P 03/01/2024 (16 DTE)](https://unusualwhales.com/flow/option_chains?chain=AFRM240301P00032000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=AFRM240301P00032000)\nOverall Volume: 4,687\nOpen Interest: 49\nVol/OI: 95.65\nOTM: 21%\nBid/Ask %: 2/91\nPremium: $101,948\nAverage Fill: $0.22\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T17:59:50+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:59:51.981000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207384539287126076",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[CSCO 55 C 03/22/2024 (37 DTE)](https://unusualwhales.com/flow/option_chains?chain=CSCO240322C00055000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CSCO240322C00055000)\nOverall Volume: 3,285\nOpen Interest: 154\nVol/OI: 21.33\nOTM: 10%\nBid/Ask %: 6/89\nPremium: $101,155\nAverage Fill: $0.31\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:55:04+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:55:06.286000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207382751553134712",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[KDP 32 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=KDP240315C00032000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=KDP240315C00032000)\nOverall Volume: 6,463\nOpen Interest: 4,210\nVol/OI: 1.54\nOTM: 4%\nBid/Ask %: 0/100\nPremium: $293,489\nAverage Fill: $0.45\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:47:54+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:48:00.057000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207382375995146352",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[KDP 32 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=KDP240315C00032000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=KDP240315C00032000)\nInterval Volume: 5,382\nOpen Interest: 4,210\nVol/OI: 1.28\nOTM: 4%\nBid/Ask %: 0/100\nPremium: $242,151\nAverage Fill: $0.45\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:46:28.962000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:46:30.517000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207381435422343188",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[VALE 12 C 06/21/2024 (128 DTE)](https://unusualwhales.com/flow/option_chains?chain=VALE240621C00012000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=VALE240621C00012000)\nOverall Volume: 4,800\nOpen Interest: 1,008\nVol/OI: 4.76\nOTM: -9%\nBid/Ask %: 30/70\nPremium: $743,443\nAverage Fill: $1.55\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:42:46+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:42:46.267000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207381183512453220",
+        "id": "1209966592885133352",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -484,55 +24,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[MSFT 425 C 03/01/2024 (16 DTE)](https://unusualwhales.com/flow/option_chains?chain=MSFT240301C00425000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=MSFT240301C00425000)\nOverall Volume: 2,537\nOpen Interest: 1,636\nVol/OI: 1.55\nOTM: 4%\nBid/Ask %: 83/10\nPremium: $400,238\nAverage Fill: $1.58\nMulti-leg Volume: 1%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:41:46+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:41:46.207000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207379011647574106",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[FANG 160 P 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=FANG240315P00160000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=FANG240315P00160000)\nInterval Volume: 1,000\nOpen Interest: 110\nVol/OI: 9.09\nOTM: 4%\nBid/Ask %: 0/100\nPremium: $251,749\nAverage Fill: $2.52\nMulti-leg Volume: 0%",
+                "description": "**[XOM 106 P 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=XOM240223P00106000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=XOM240223P00106000)\nOverall Volume: 4,072\nOpen Interest: 66\nVol/OI: 61.70\nOTM: -1%\nBid/Ask %: 99/1\nPremium: $730,076\nAverage Fill: $1.79\nMulti-leg Volume: 0%",
                 "color": 15403273,
-                "timestamp": "2024-02-14T17:33:06.617000+00:00",
+                "timestamp": "2024-02-21T20:55:14+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -546,105 +40,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T17:33:08.394000+00:00",
+        "timestamp": "2024-02-21T20:55:15.836000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207379005297131570",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[GOOG 147 C 02/23/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=GOOG240223C00147000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=GOOG240223C00147000)\nOverall Volume: 2,502\nOpen Interest: 1,216\nVol/OI: 2.06\nOTM: 0%\nBid/Ask %: 82/14\nPremium: $537,872\nAverage Fill: $2.15\nMulti-leg Volume: 1%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:33:06+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:33:06.880000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207378038514389064",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[UBER 77 P 02/23/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=UBER240223P00077000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=UBER240223P00077000)\nOverall Volume: 3,222\nOpen Interest: 5\nVol/OI: 644.40\nOTM: 0%\nBid/Ask %: 76/18\nPremium: $527,524\nAverage Fill: $1.64\nMulti-leg Volume: 2%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T17:29:14+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:29:16.381000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207376620986437682",
+        "id": "1209965156910628905",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -668,9 +70,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[IRBT 18 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=IRBT240315C00018000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=IRBT240315C00018000)\nOverall Volume: 3,337\nOpen Interest: 277\nVol/OI: 12.05\nOTM: 44%\nBid/Ask %: 7/93\nPremium: $100,178\nAverage Fill: $0.30\nMulti-leg Volume: 0%",
+                "description": "**[BHC 9 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=BHC240223C00009000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=BHC240223C00009000)\nOverall Volume: 4,531\nOpen Interest: 672\nVol/OI: 6.74\nOTM: 4%\nBid/Ask %: 14/85\nPremium: $103,589\nAverage Fill: $0.23\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T17:23:32+00:00",
+                "timestamp": "2024-02-21T20:49:32+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -684,13 +86,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T17:23:38.416000+00:00",
+        "timestamp": "2024-02-21T20:49:33.473000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207374966421721179",
+        "id": "1209964480822382682",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -714,9 +116,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[IRBT 18 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=IRBT240315C00018000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=IRBT240315C00018000)\nInterval Volume: 2,717\nOpen Interest: 277\nVol/OI: 9.81\nOTM: 46%\nBid/Ask %: 0/100\nPremium: $81,490\nAverage Fill: $0.30\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:16:59.636000+00:00",
+                "description": "**[ABNB 130 P 03/22/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=ABNB240322P00130000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=ABNB240322P00130000)\nInterval Volume: 1,000\nOpen Interest: 100\nVol/OI: 10\nOTM: 13%\nBid/Ask %: 13/87\nPremium: $78,215\nAverage Fill: $0.78\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T20:46:51.402000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -730,13 +132,335 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T17:17:03.937000+00:00",
+        "timestamp": "2024-02-21T20:46:52.281000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207371545358372944",
+        "id": "1209964388488970240",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Bid Side",
+                "description": "**[NVDA 545 P 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=NVDA240223P00545000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=NVDA240223P00545000)\nOverall Volume: 4,617\nOpen Interest: 1,641\nVol/OI: 2.81\nOTM: 19%\nBid/Ask %: 72/24\nPremium: $592,279\nAverage Fill: $1.28\nMulti-leg Volume: 20%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T20:46:30+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:46:30.267000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209963583421550653",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Bid Side",
+                "description": "**[BHC 8.5 C 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=BHC240315C00008500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=BHC240315C00008500)\nOverall Volume: 5,022\nOpen Interest: 1\nVol/OI: 5022\nOTM: -1%\nBid/Ask %: 90/8\nPremium: $265,619\nAverage Fill: $0.53\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T20:43:18+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:43:18.324000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209963323463045140",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[MRVL 64 P 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=MRVL240315P00064000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=MRVL240315P00064000)\nInterval Volume: 1,000\nOpen Interest: 73\nVol/OI: 13.70\nOTM: 2%\nBid/Ask %: 0/100\nPremium: $355,000\nAverage Fill: $3.55\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T20:42:14.782000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:42:16.345000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209962065117315193",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Bid Side",
+                "description": "**[IRBT 12 P 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=IRBT240315P00012000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=IRBT240315P00012000)\nOverall Volume: 2,802\nOpen Interest: 1,832\nVol/OI: 1.53\nOTM: 1%\nBid/Ask %: 75/25\nPremium: $406,242\nAverage Fill: $1.45\nMulti-leg Volume: 1%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T20:37:16+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:37:16.332000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209961614757986414",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Ask Side",
+                "description": "**[WW 4 C 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=WW240315C00004000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=WW240315C00004000)\nOverall Volume: 5,024\nOpen Interest: 275\nVol/OI: 18.27\nOTM: 13%\nBid/Ask %: 0/100\nPremium: $186,908\nAverage Fill: $0.37\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T20:35:28+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:35:28.958000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209961284787904532",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[WW 4 C 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=WW240315C00004000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=WW240315C00004000)\nInterval Volume: 2,423\nOpen Interest: 275\nVol/OI: 8.81\nOTM: 15%\nBid/Ask %: 0/100\nPremium: $84,797\nAverage Fill: $0.35\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T20:34:08.203000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:34:10.287000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209961064444334130",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[V 280 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=V240223C00280000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=V240223C00280000)\nInterval Volume: 2,662\nOpen Interest: 1,350\nVol/OI: 1.97\nOTM: 2%\nBid/Ask %: 21/73\nPremium: $75,065\nAverage Fill: $0.28\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T20:33:17.083000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:33:17.753000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209961063567851540",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -760,9 +484,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Bid Side",
-                "description": "**[XOM 99 C 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=XOM240216C00099000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=XOM240216C00099000)\nInterval Volume: 1,500\nOpen Interest: 50\nVol/OI: 30\nOTM: -2%\nBid/Ask %: 100/0\nPremium: $322,500\nAverage Fill: $2.15\nMulti-leg Volume: 0%",
+                "description": "**[IBRX 4.5 C 07/19/2024 (149 DTE)](https://unusualwhales.com/flow/option_chains?chain=IBRX240719C00004500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=IBRX240719C00004500)\nInterval Volume: 1,899\nOpen Interest: 60\nVol/OI: 31.65\nOTM: -2%\nBid/Ask %: 95/0\nPremium: $256,365\nAverage Fill: $1.35\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T17:03:26.033000+00:00",
+                "timestamp": "2024-02-21T20:33:14.333000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -776,105 +500,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T17:03:28.292000+00:00",
+        "timestamp": "2024-02-21T20:33:17.544000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207370789872205834",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[CVNA 75 C 02/23/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=CVNA240223C00075000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CVNA240223C00075000)\nOverall Volume: 3,069\nOpen Interest: 2,040\nVol/OI: 1.50\nOTM: 40%\nBid/Ask %: 22/78\nPremium: $292,375\nAverage Fill: $0.95\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T17:00:26+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:00:28.170000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207370698507427840",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[MARA 24.5 P 03/01/2024 (16 DTE)](https://unusualwhales.com/flow/option_chains?chain=MARA240301P00024500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=MARA240301P00024500)\nOverall Volume: 2,528\nOpen Interest: 63\nVol/OI: 40.13\nOTM: 14%\nBid/Ask %: 3/97\nPremium: $361,590\nAverage Fill: $1.43\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T17:00:06+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T17:00:06.387000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207369901245861958",
+        "id": "1209960653662584923",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -898,9 +530,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[HLF 15 C 05/17/2024 (93 DTE)](https://unusualwhales.com/flow/option_chains?chain=HLF240517C00015000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=HLF240517C00015000)\nInterval Volume: 1,002\nOpen Interest: 178\nVol/OI: 5.63\nOTM: 28%\nBid/Ask %: 1/99\nPremium: $98,040\nAverage Fill: $0.98\nMulti-leg Volume: 0%",
+                "description": "**[AUPH 7 C 07/19/2024 (149 DTE)](https://unusualwhales.com/flow/option_chains?chain=AUPH240719C00007000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=AUPH240719C00007000)\nInterval Volume: 1,090\nOpen Interest: 310\nVol/OI: 3.52\nOTM: 21%\nBid/Ask %: 0/71\nPremium: $76,300\nAverage Fill: $0.70\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T16:56:54.719000+00:00",
+                "timestamp": "2024-02-21T20:31:10.077000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -914,13 +546,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T16:56:56.305000+00:00",
+        "timestamp": "2024-02-21T20:31:39.815000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207366713637605436",
+        "id": "1209960336770203779",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -944,9 +576,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[NVDA 1320 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=NVDA240315C01320000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=NVDA240315C01320000)\nOverall Volume: 2,561\nOpen Interest: 1,651\nVol/OI: 1.55\nOTM: 82%\nBid/Ask %: 82/18\nPremium: $250,208\nAverage Fill: $0.98\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T16:44:16+00:00",
+                "description": "**[CPRI 32.5 P 08/16/2024 (177 DTE)](https://unusualwhales.com/flow/option_chains?chain=CPRI240816P00032500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CPRI240816P00032500)\nOverall Volume: 5,424\nOpen Interest: 3,607\nVol/OI: 1.50\nOTM: 30%\nBid/Ask %: 82/16\nPremium: $292,600\nAverage Fill: $0.54\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T20:30:24+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -960,13 +592,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T16:44:16.320000+00:00",
+        "timestamp": "2024-02-21T20:30:24.262000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207364515369582683",
+        "id": "1209959238248566876",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -990,9 +622,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[VKTX 44 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=VKTX240315C00044000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=VKTX240315C00044000)\nOverall Volume: 2,617\nOpen Interest: 585\nVol/OI: 4.47\nOTM: 34%\nBid/Ask %: 18/75\nPremium: $905,512\nAverage Fill: $3.46\nMulti-leg Volume: 2%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T16:35:24+00:00",
+                "description": "**[RUN 14.5 P 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=RUN240223P00014500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RUN240223P00014500)\nOverall Volume: 2,917\nOpen Interest: 196\nVol/OI: 14.88\nOTM: 7%\nBid/Ask %: 6/92\nPremium: $186,040\nAverage Fill: $0.64\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T20:26:02+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1006,13 +638,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T16:35:32.212000+00:00",
+        "timestamp": "2024-02-21T20:26:02.354000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207358563660603402",
+        "id": "1209959229956427887",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1036,9 +668,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[MARA 24.5 P 03/01/2024 (16 DTE)](https://unusualwhales.com/flow/option_chains?chain=MARA240301P00024500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=MARA240301P00024500)\nInterval Volume: 1,071\nOpen Interest: 63\nVol/OI: 17\nOTM: 14%\nBid/Ask %: 0/100\nPremium: $153,153\nAverage Fill: $1.43\nMulti-leg Volume: 0%",
+                "description": "**[RUN 14.5 P 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=RUN240223P00014500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RUN240223P00014500)\nInterval Volume: 1,520\nOpen Interest: 196\nVol/OI: 7.76\nOTM: 7%\nBid/Ask %: 6/94\nPremium: $97,315\nAverage Fill: $0.64\nMulti-leg Volume: 0%",
                 "color": 15403273,
-                "timestamp": "2024-02-14T16:11:45.689000+00:00",
+                "timestamp": "2024-02-21T20:25:58.607000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1052,151 +684,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T16:11:53.214000+00:00",
+        "timestamp": "2024-02-21T20:26:00.377000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207357771130085487",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[NVDA 1420 C 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=NVDA240315C01420000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=NVDA240315C01420000)\nOverall Volume: 4,953\nOpen Interest: 0\nVol/OI: -\nOTM: 95%\nBid/Ask %: 77/23\nPremium: $253,541\nAverage Fill: $0.51\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T16:08:44+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T16:08:44.260000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207357427524173886",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[TSM 80 P 05/17/2024 (93 DTE)](https://unusualwhales.com/flow/option_chains?chain=TSM240517P00080000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=TSM240517P00080000)\nInterval Volume: 1,952\nOpen Interest: 1,099\nVol/OI: 1.78\nOTM: 38%\nBid/Ask %: 0/100\nPremium: $80,971\nAverage Fill: $0.41\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T16:07:16.695000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T16:07:22.338000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207357007888257100",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[SHOP 85 C 03/08/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=SHOP240308C00085000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=SHOP240308C00085000)\nOverall Volume: 4,049\nOpen Interest: 203\nVol/OI: 19.95\nOTM: 8%\nBid/Ask %: 71/3\nPremium: $667,591\nAverage Fill: $1.65\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T16:05:42+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T16:05:42.289000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207355330510589952",
+        "id": "1209958869611323443",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1220,9 +714,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[MARA 28 P 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=MARA240216P00028000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=MARA240216P00028000)\nOverall Volume: 8,245\nOpen Interest: 5,490\nVol/OI: 1.50\nOTM: 3%\nBid/Ask %: 17/74\nPremium: $849,724\nAverage Fill: $1.03\nMulti-leg Volume: 4%",
+                "description": "**[U 25 P 03/01/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=U240301P00025000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=U240301P00025000)\nOverall Volume: 4,212\nOpen Interest: 148\nVol/OI: 28.46\nOTM: 19%\nBid/Ask %: 0/99\nPremium: $159,284\nAverage Fill: $0.38\nMulti-leg Volume: 0%",
                 "color": 15403273,
-                "timestamp": "2024-02-14T15:59:02+00:00",
+                "timestamp": "2024-02-21T20:24:30+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1236,13 +730,59 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:59:02.371000+00:00",
+        "timestamp": "2024-02-21T20:24:34.464000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207352596222844999",
+        "id": "1209956512215072849",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[VST 44 P 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=VST240315P00044000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=VST240315P00044000)\nInterval Volume: 1,277\nOpen Interest: 23\nVol/OI: 55.52\nOTM: 4%\nBid/Ask %: 0/100\nPremium: $108,517\nAverage Fill: $0.85\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T20:15:11.025000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T20:15:12.417000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209955915936309248",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1266,9 +806,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[PLCE 11 P 03/15/2024 (30 DTE)](https://unusualwhales.com/flow/option_chains?chain=PLCE240315P00011000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=PLCE240315P00011000)\nOverall Volume: 2,571\nOpen Interest: 173\nVol/OI: 14.86\nOTM: 20%\nBid/Ask %: 0/100\nPremium: $284,524\nAverage Fill: $1.11\nMulti-leg Volume: 0%",
+                "description": "**[BA 190 P 03/08/2024 (16 DTE)](https://unusualwhales.com/flow/option_chains?chain=BA240308P00190000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=BA240308P00190000)\nOverall Volume: 3,070\nOpen Interest: 481\nVol/OI: 6.38\nOTM: 6%\nBid/Ask %: 24/72\nPremium: $400,966\nAverage Fill: $1.31\nMulti-leg Volume: 1%",
                 "color": 15403273,
-                "timestamp": "2024-02-14T15:48:10+00:00",
+                "timestamp": "2024-02-21T20:12:50+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1282,59 +822,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:48:10.466000+00:00",
+        "timestamp": "2024-02-21T20:12:50.253000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207351840853987379",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[HOOD 14 C 05/17/2024 (93 DTE)](https://unusualwhales.com/flow/option_chains?chain=HOOD240517C00014000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=HOOD240517C00014000)\nOverall Volume: 21,076\nOpen Interest: 10,147\nVol/OI: 2.08\nOTM: 8%\nBid/Ask %: 79/20\nPremium: $2,516,593\nAverage Fill: $1.19\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T15:45:10+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T15:45:10.372000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207351195065385020",
+        "id": "1209954389243072603",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1358,55 +852,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[FLEX 30 C 04/19/2024 (65 DTE)](https://unusualwhales.com/flow/option_chains?chain=FLEX240419C00030000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=FLEX240419C00030000)\nInterval Volume: 1,008\nOpen Interest: 40\nVol/OI: 25.20\nOTM: 8%\nBid/Ask %: 0/100\nPremium: $75,595\nAverage Fill: $0.75\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T15:42:34.700000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T15:42:36.404000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207348673273405470",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[LYFT 16 P 04/19/2024 (65 DTE)](https://unusualwhales.com/flow/option_chains?chain=LYFT240419P00016000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=LYFT240419P00016000)\nInterval Volume: 2,216\nOpen Interest: 356\nVol/OI: 6.22\nOTM: 2%\nBid/Ask %: 35/65\nPremium: $311,077\nAverage Fill: $1.40\nMulti-leg Volume: 27%",
+                "description": "**[U 25 P 03/01/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=U240301P00025000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=U240301P00025000)\nInterval Volume: 2,029\nOpen Interest: 148\nVol/OI: 13.71\nOTM: 19%\nBid/Ask %: 0/100\nPremium: $75,073\nAverage Fill: $0.37\nMulti-leg Volume: 0%",
                 "color": 15403273,
-                "timestamp": "2024-02-14T15:32:32.240000+00:00",
+                "timestamp": "2024-02-21T20:06:45.220000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1420,59 +868,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:32:35.162000+00:00",
+        "timestamp": "2024-02-21T20:06:46.261000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207348233362210816",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[MCHP 72.5 P 04/19/2024 (65 DTE)](https://unusualwhales.com/flow/option_chains?chain=MCHP240419P00072500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=MCHP240419P00072500)\nOverall Volume: 5,500\nOpen Interest: 540\nVol/OI: 10.19\nOTM: 10%\nBid/Ask %: 100/0\nPremium: $621,518\nAverage Fill: $1.13\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T15:30:48+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T15:30:50.279000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207348225057751100",
+        "id": "1209953056226156615",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1496,9 +898,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Bid Side",
-                "description": "**[MCHP 72.5 P 04/19/2024 (65 DTE)](https://unusualwhales.com/flow/option_chains?chain=MCHP240419P00072500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=MCHP240419P00072500)\nInterval Volume: 5,490\nOpen Interest: 540\nVol/OI: 10.17\nOTM: 10%\nBid/Ask %: 100/0\nPremium: $620,388\nAverage Fill: $1.13\nMulti-leg Volume: 0%",
+                "description": "**[LUV 35 P 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=LUV240419P00035000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=LUV240419P00035000)\nInterval Volume: 1,361\nOpen Interest: 131\nVol/OI: 10.39\nOTM: -2%\nBid/Ask %: 99/1\nPremium: $292,978\nAverage Fill: $2.15\nMulti-leg Volume: 0%",
                 "color": 15403273,
-                "timestamp": "2024-02-14T15:30:47.018000+00:00",
+                "timestamp": "2024-02-21T20:01:26.983000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1512,13 +914,59 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:30:48.299000+00:00",
+        "timestamp": "2024-02-21T20:01:28.445000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207347738145193995",
+        "id": "1209951906638594098",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[CWH 26 C 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=CWH240315C00026000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CWH240315C00026000)\nInterval Volume: 1,001\nOpen Interest: 457\nVol/OI: 2.19\nOTM: 4%\nBid/Ask %: 0/98\nPremium: $131,675\nAverage Fill: $1.32\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T19:56:52.618000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:56:54.362000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209951521123598340",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1542,9 +990,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[VZ 40.5 C 02/23/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=VZ240223C00040500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=VZ240223C00040500)\nOverall Volume: 2,501\nOpen Interest: 282\nVol/OI: 8.87\nOTM: 0%\nBid/Ask %: 23/71\nPremium: $116,697\nAverage Fill: $0.47\nMulti-leg Volume: 1%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T15:28:52+00:00",
+                "description": "**[RTX 90 P 03/01/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=RTX240301P00090000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RTX240301P00090000)\nOverall Volume: 2,618\nOpen Interest: 267\nVol/OI: 9.81\nOTM: 0%\nBid/Ask %: 17/70\nPremium: $316,180\nAverage Fill: $1.21\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T19:55:22+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1558,13 +1006,197 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:28:52.210000+00:00",
+        "timestamp": "2024-02-21T19:55:22.448000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207347478362595328",
+        "id": "1209950588737945621",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Ask Side",
+                "description": "**[SU 33.5 C 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=SU240315C00033500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=SU240315C00033500)\nOverall Volume: 2,714\nOpen Interest: 5\nVol/OI: 542.80\nOTM: 0%\nBid/Ask %: 5/94\nPremium: $203,233\nAverage Fill: $0.75\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T19:51:40+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:51:40.150000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209949221520670721",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[BBWI 47.5 C 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=BBWI240315C00047500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=BBWI240315C00047500)\nInterval Volume: 1,173\nOpen Interest: 140\nVol/OI: 8.38\nOTM: 3%\nBid/Ask %: 0/100\nPremium: $232,303\nAverage Fill: $1.98\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T19:46:13.092000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:46:14.180000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209948183099080756",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Ask Side",
+                "description": "**[KHC 36.5 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=KHC240223C00036500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=KHC240223C00036500)\nOverall Volume: 6,250\nOpen Interest: 341\nVol/OI: 18.33\nOTM: 0%\nBid/Ask %: 23/72\nPremium: $102,164\nAverage Fill: $0.16\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T19:42:04+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:42:06.601000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209948171221078068",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[KHC 36.5 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=KHC240223C00036500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=KHC240223C00036500)\nInterval Volume: 4,379\nOpen Interest: 341\nVol/OI: 12.84\nOTM: 0%\nBid/Ask %: 12/84\nPremium: $75,683\nAverage Fill: $0.17\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T19:42:02.336000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:42:03.769000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209947376412794982",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1588,9 +1220,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[DVN 45 C 07/19/2024 (156 DTE)](https://unusualwhales.com/flow/option_chains?chain=DVN240719C00045000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=DVN240719C00045000)\nOverall Volume: 2,667\nOpen Interest: 1,464\nVol/OI: 1.82\nOTM: 7%\nBid/Ask %: 78/22\nPremium: $646,339\nAverage Fill: $2.42\nMulti-leg Volume: 8%",
+                "description": "**[PANW 300 C 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=PANW240419C00300000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=PANW240419C00300000)\nOverall Volume: 2,502\nOpen Interest: 68\nVol/OI: 36.79\nOTM: 15%\nBid/Ask %: 71/20\nPremium: $1,708,346\nAverage Fill: $6.83\nMulti-leg Volume: 5%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:27:50+00:00",
+                "timestamp": "2024-02-21T19:38:54+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1604,13 +1236,151 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:27:50.273000+00:00",
+        "timestamp": "2024-02-21T19:38:54.272000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207347431419682878",
+        "id": "1209947231075966987",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[DKNG 43 P 08/16/2024 (177 DTE)](https://unusualwhales.com/flow/option_chains?chain=DKNG240816P00043000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=DKNG240816P00043000)\nInterval Volume: 1,043\nOpen Interest: 164\nVol/OI: 6.36\nOTM: -6%\nBid/Ask %: 5/93\nPremium: $662,305\nAverage Fill: $6.35\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T19:38:18.057000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:38:19.621000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209943442394710057",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Ask Side",
+                "description": "**[CWH 23 P 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=CWH240315P00023000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CWH240315P00023000)\nOverall Volume: 2,997\nOpen Interest: 366\nVol/OI: 8.19\nOTM: 9%\nBid/Ask %: 0/99\nPremium: $217,139\nAverage Fill: $0.72\nMulti-leg Volume: 17%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T19:23:16+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:23:16.329000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209943435889344554",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[CWH 23 P 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=CWH240315P00023000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CWH240315P00023000)\nInterval Volume: 2,450\nOpen Interest: 366\nVol/OI: 6.69\nOTM: 9%\nBid/Ask %: 0/100\nPremium: $178,821\nAverage Fill: $0.73\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T19:23:14.025000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T19:23:14.778000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209938551760748544",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1634,9 +1404,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Bid Side",
-                "description": "**[DVN 45 C 07/19/2024 (156 DTE)](https://unusualwhales.com/flow/option_chains?chain=DVN240719C00045000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=DVN240719C00045000)\nInterval Volume: 1,917\nOpen Interest: 1,464\nVol/OI: 1.31\nOTM: 7%\nBid/Ask %: 81/19\nPremium: $465,467\nAverage Fill: $2.43\nMulti-leg Volume: 0%",
+                "description": "**[FITB 35 C 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=FITB240419C00035000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=FITB240419C00035000)\nInterval Volume: 4,465\nOpen Interest: 7\nVol/OI: 637.86\nOTM: 4%\nBid/Ask %: 70/27\nPremium: $476,415\nAverage Fill: $1.07\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:27:35.546000+00:00",
+                "timestamp": "2024-02-21T19:03:49.020000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1650,13 +1420,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:27:39.081000+00:00",
+        "timestamp": "2024-02-21T19:03:50.311000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207346833014390815",
+        "id": "1209938506991018064",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1680,55 +1450,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[PLTR 26 P 03/01/2024 (16 DTE)](https://unusualwhales.com/flow/option_chains?chain=PLTR240301P00026000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=PLTR240301P00026000)\nInterval Volume: 1,011\nOpen Interest: 411\nVol/OI: 2.46\nOTM: -4%\nBid/Ask %: 0/100\nPremium: $178,947\nAverage Fill: $1.77\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T15:25:15.416000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T15:25:16.410000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207345473539801150",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[DVN 42.5 C 02/23/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=DVN240223C00042500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=DVN240223C00042500)\nOverall Volume: 2,587\nOpen Interest: 409\nVol/OI: 6.33\nOTM: 1%\nBid/Ask %: 3/94\nPremium: $173,754\nAverage Fill: $0.67\nMulti-leg Volume: 0%",
+                "description": "**[FITB 35 C 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=FITB240419C00035000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=FITB240419C00035000)\nInterval Volume: 1,151\nOpen Interest: 7\nVol/OI: 164.43\nOTM: 4%\nBid/Ask %: 0/100\nPremium: $126,610\nAverage Fill: $1.10\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:19:52+00:00",
+                "timestamp": "2024-02-21T19:03:38.593000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1742,13 +1466,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:19:52.286000+00:00",
+        "timestamp": "2024-02-21T19:03:39.637000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207344845186924564",
+        "id": "1209934341086650408",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1772,9 +1496,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Bid Side",
-                "description": "**[AAPL 190 C 03/08/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=AAPL240308C00190000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=AAPL240308C00190000)\nInterval Volume: 5,934\nOpen Interest: 2,577\nVol/OI: 2.30\nOTM: 3%\nBid/Ask %: 100/0\nPremium: $865,244\nAverage Fill: $1.46\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T15:17:21.322000+00:00",
+                "description": "**[CLSK 15 P 06/21/2024 (121 DTE)](https://unusualwhales.com/flow/option_chains?chain=CLSK240621P00015000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CLSK240621P00015000)\nInterval Volume: 1,170\nOpen Interest: 563\nVol/OI: 2.08\nOTM: 5%\nBid/Ask %: 100/0\nPremium: $503,116\nAverage Fill: $4.30\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T18:47:04.425000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1788,13 +1512,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:17:22.475000+00:00",
+        "timestamp": "2024-02-21T18:47:06.408000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207344793890463774",
+        "id": "1209933610552000543",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1818,9 +1542,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[LYFT 17.5 C 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=LYFT240216C00017500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=LYFT240216C00017500)\nOverall Volume: 8,355\nOpen Interest: 282\nVol/OI: 29.63\nOTM: 5%\nBid/Ask %: 83/15\nPremium: $412,961\nAverage Fill: $0.49\nMulti-leg Volume: 6%",
+                "description": "**[PANW 300 C 03/08/2024 (16 DTE)](https://unusualwhales.com/flow/option_chains?chain=PANW240308C00300000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=PANW240308C00300000)\nOverall Volume: 2,628\nOpen Interest: 12\nVol/OI: 219\nOTM: 13%\nBid/Ask %: 73/19\nPremium: $623,205\nAverage Fill: $2.37\nMulti-leg Volume: 8%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:17:06+00:00",
+                "timestamp": "2024-02-21T18:44:10+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1834,13 +1558,197 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:17:10.245000+00:00",
+        "timestamp": "2024-02-21T18:44:12.235000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207344777910165576",
+        "id": "1209933542310682634",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[EBAY 45 C 06/21/2024 (121 DTE)](https://unusualwhales.com/flow/option_chains?chain=EBAY240621C00045000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=EBAY240621C00045000)\nInterval Volume: 1,196\nOpen Interest: 824\nVol/OI: 1.45\nOTM: 2%\nBid/Ask %: 34/66\nPremium: $331,575\nAverage Fill: $2.77\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T18:43:50.034000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:43:55.965000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209932067329155072",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Ask Side",
+                "description": "**[IOVA 20 C 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=IOVA240419C00020000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=IOVA240419C00020000)\nOverall Volume: 2,563\nOpen Interest: 0\nVol/OI: -\nOTM: 35%\nBid/Ask %: 22/78\nPremium: $275,062\nAverage Fill: $1.07\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T18:38:02+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:38:04.302000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209932032793116742",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[INDI 7.5 C 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=INDI240419C00007500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=INDI240419C00007500)\nInterval Volume: 1,037\nOpen Interest: 3\nVol/OI: 345.67\nOTM: 6%\nBid/Ask %: 0/100\nPremium: $82,934\nAverage Fill: $0.80\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T18:37:54.732000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:37:56.068000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209929947909722153",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[SABR 4.5 C 07/19/2024 (149 DTE)](https://unusualwhales.com/flow/option_chains?chain=SABR240719C00004500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=SABR240719C00004500)\nInterval Volume: 4,408\nOpen Interest: 590\nVol/OI: 7.47\nOTM: 58%\nBid/Ask %: 22/73\nPremium: $78,854\nAverage Fill: $0.18\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T18:29:38.732000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:29:38.993000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209929407851135017",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1864,9 +1772,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Bid Side",
-                "description": "**[LYFT 17.5 C 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=LYFT240216C00017500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=LYFT240216C00017500)\nInterval Volume: 4,850\nOpen Interest: 282\nVol/OI: 17.20\nOTM: 5%\nBid/Ask %: 99/0\nPremium: $257,041\nAverage Fill: $0.53\nMulti-leg Volume: 0%",
+                "description": "**[ETSY 82 C 03/01/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=ETSY240301C00082000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=ETSY240301C00082000)\nInterval Volume: 1,000\nOpen Interest: 66\nVol/OI: 15.15\nOTM: 5%\nBid/Ask %: 100/0\nPremium: $320,014\nAverage Fill: $3.20\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:17:04.006000+00:00",
+                "timestamp": "2024-02-21T18:27:28.640000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1880,13 +1788,197 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:17:06.435000+00:00",
+        "timestamp": "2024-02-21T18:27:30.233000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207344542186082345",
+        "id": "1209929324824760391",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[META 457.5 P 03/01/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=META240301P00457500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=META240301P00457500)\nInterval Volume: 1,004\nOpen Interest: 242\nVol/OI: 4.15\nOTM: 2%\nBid/Ask %: 0/100\nPremium: $477,302\nAverage Fill: $4.75\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T18:27:09.269000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:27:10.438000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209928676955914252",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Bid Side",
+                "description": "**[IOVA 18 C 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=IOVA240419C00018000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=IOVA240419C00018000)\nInterval Volume: 1,931\nOpen Interest: 0\nVol/OI: -\nOTM: 22%\nBid/Ask %: 100/0\nPremium: $251,030\nAverage Fill: $1.30\nMulti-leg Volume: 0%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T18:24:34.710000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:24:35.974000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209928058048487424",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[CTSH 65 P 06/21/2024 (121 DTE)](https://unusualwhales.com/flow/option_chains?chain=CTSH240621P00065000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=CTSH240621P00065000)\nInterval Volume: 1,074\nOpen Interest: 158\nVol/OI: 6.80\nOTM: 16%\nBid/Ask %: 0/100\nPremium: $75,180\nAverage Fill: $0.70\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T18:22:08.022000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:22:08.415000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209925323047833641",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
+                "description": "**[RTX 90 P 03/01/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=RTX240301P00090000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RTX240301P00090000)\nInterval Volume: 1,008\nOpen Interest: 267\nVol/OI: 3.78\nOTM: 0%\nBid/Ask %: 17/83\nPremium: $119,825\nAverage Fill: $1.19\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T18:11:14.703000+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T18:11:16.340000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209921975502377020",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1910,9 +2002,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[AAPL 190 C 03/08/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=AAPL240308C00190000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=AAPL240308C00190000)\nOverall Volume: 3,969\nOpen Interest: 2,577\nVol/OI: 1.54\nOTM: 3%\nBid/Ask %: 88/11\nPremium: $639,179\nAverage Fill: $1.61\nMulti-leg Volume: 0%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T15:16:08+00:00",
+                "description": "**[WW 4 P 04/19/2024 (58 DTE)](https://unusualwhales.com/flow/option_chains?chain=WW240419P00004000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=WW240419P00004000)\nOverall Volume: 2,746\nOpen Interest: 103\nVol/OI: 26.66\nOTM: -14%\nBid/Ask %: 85/9\nPremium: $260,840\nAverage Fill: $0.95\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T17:57:56+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1926,13 +2018,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:16:10.234000+00:00",
+        "timestamp": "2024-02-21T17:57:58.223000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207344022423740506",
+        "id": "1209921548048400424",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -1956,9 +2048,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[RUN 16.5 C 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=RUN240216C00016500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RUN240216C00016500)\nOverall Volume: 4,172\nOpen Interest: 2,661\nVol/OI: 1.57\nOTM: 3%\nBid/Ask %: 11/76\nPremium: $150,370\nAverage Fill: $0.36\nMulti-leg Volume: 0%",
+                "description": "**[LI 25 C 06/21/2024 (121 DTE)](https://unusualwhales.com/flow/option_chains?chain=LI240621C00025000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=LI240621C00025000)\nOverall Volume: 4,817\nOpen Interest: 3,189\nVol/OI: 1.51\nOTM: -24%\nBid/Ask %: 1/99\nPremium: $4,537,135\nAverage Fill: $9.42\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:14:04+00:00",
+                "timestamp": "2024-02-21T17:56:16+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -1972,13 +2064,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:14:06.313000+00:00",
+        "timestamp": "2024-02-21T17:56:16.310000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207343986055061525",
+        "id": "1209920322799669279",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -2002,9 +2094,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[RUN 16.5 C 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=RUN240216C00016500)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RUN240216C00016500)\nInterval Volume: 3,329\nOpen Interest: 2,661\nVol/OI: 1.25\nOTM: 3%\nBid/Ask %: 13/71\nPremium: $118,472\nAverage Fill: $0.36\nMulti-leg Volume: 0%",
+                "description": "**[ABT 118 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=ABT240223C00118000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=ABT240223C00118000)\nInterval Volume: 1,680\nOpen Interest: 232\nVol/OI: 7.24\nOTM: 1%\nBid/Ask %: 24/71\nPremium: $88,336\nAverage Fill: $0.53\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:13:56.457000+00:00",
+                "timestamp": "2024-02-21T17:51:22.318000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -2018,13 +2110,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:13:57.642000+00:00",
+        "timestamp": "2024-02-21T17:51:24.188000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207343309396119592",
+        "id": "1209920172056649859",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -2048,9 +2140,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[RBLX 44 C 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=RBLX240216C00044000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RBLX240216C00044000)\nOverall Volume: 3,384\nOpen Interest: 1,127\nVol/OI: 3\nOTM: 2%\nBid/Ask %: 15/70\nPremium: $114,962\nAverage Fill: $0.34\nMulti-leg Volume: 0%",
+                "description": "**[ABT 118 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=ABT240223C00118000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=ABT240223C00118000)\nOverall Volume: 2,513\nOpen Interest: 232\nVol/OI: 10.83\nOTM: 1%\nBid/Ask %: 19/78\nPremium: $123,670\nAverage Fill: $0.49\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:11:10+00:00",
+                "timestamp": "2024-02-21T17:50:48+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -2064,59 +2156,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:11:16.314000+00:00",
+        "timestamp": "2024-02-21T17:50:48.248000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207343185995632700",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[RIVN 10 P 05/17/2024 (93 DTE)](https://unusualwhales.com/flow/option_chains?chain=RIVN240517P00010000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RIVN240517P00010000)\nOverall Volume: 2,864\nOpen Interest: 21\nVol/OI: 136.38\nOTM: 36%\nBid/Ask %: 28/72\nPremium: $117,428\nAverage Fill: $0.41\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T15:10:46+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T15:10:46.893000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207343184636551208",
+        "id": "1209919652067672134",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -2140,55 +2186,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[RIVN 10 P 05/17/2024 (93 DTE)](https://unusualwhales.com/flow/option_chains?chain=RIVN240517P00010000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RIVN240517P00010000)\nInterval Volume: 2,295\nOpen Interest: 21\nVol/OI: 109.29\nOTM: 36%\nBid/Ask %: 35/65\nPremium: $94,095\nAverage Fill: $0.41\nMulti-leg Volume: 0%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T15:10:44.609000+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T15:10:46.569000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207343175195164682",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd51 Interval (5 Min) - Ask Side",
-                "description": "**[RBLX 44 C 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=RBLX240216C00044000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=RBLX240216C00044000)\nInterval Volume: 2,309\nOpen Interest: 1,127\nVol/OI: 2.05\nOTM: 2%\nBid/Ask %: 0/83\nPremium: $77,037\nAverage Fill: $0.33\nMulti-leg Volume: 0%",
+                "description": "**[VRT 59 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=VRT240223C00059000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=VRT240223C00059000)\nInterval Volume: 1,000\nOpen Interest: 177\nVol/OI: 5.65\nOTM: 2%\nBid/Ask %: 1/99\nPremium: $104,819\nAverage Fill: $1.05\nMulti-leg Volume: 0%",
                 "color": 1164142,
-                "timestamp": "2024-02-14T15:10:43.443000+00:00",
+                "timestamp": "2024-02-21T17:48:43.094000+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -2202,59 +2202,13 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:10:44.318000+00:00",
+        "timestamp": "2024-02-21T17:48:44.273000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
     },
     {
-        "id": "1207342906680017036",
-        "type": 0,
-        "content": "",
-        "channel_id": "1187484002844680354",
-        "author": {
-            "id": "721248808469790760",
-            "username": "unusual_whales_bot",
-            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
-            "discriminator": "7407",
-            "public_flags": 0,
-            "premium_type": 0,
-            "flags": 0,
-            "bot": true,
-            "banner": null,
-            "accent_color": null,
-            "global_name": null,
-            "avatar_decoration_data": null,
-            "banner_color": null
-        },
-        "attachments": [],
-        "embeds": [
-            {
-                "type": "rich",
-                "title": "\ud83d\udd25 Hot Contract - Bid Side",
-                "description": "**[UBER 75 P 02/16/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=UBER240216P00075000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=UBER240216P00075000)\nOverall Volume: 3,231\nOpen Interest: 515\nVol/OI: 6.27\nOTM: 3%\nBid/Ask %: 71/22\nPremium: $252,700\nAverage Fill: $0.78\nMulti-leg Volume: 4%",
-                "color": 15403273,
-                "timestamp": "2024-02-14T15:09:38+00:00",
-                "footer": {
-                    "text": "Happy Hunting!",
-                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
-                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
-                },
-                "content_scan_version": 1
-            }
-        ],
-        "mentions": [],
-        "mention_roles": [],
-        "pinned": false,
-        "mention_everyone": false,
-        "tts": false,
-        "timestamp": "2024-02-14T15:09:40.299000+00:00",
-        "edited_timestamp": null,
-        "flags": 0,
-        "components": []
-    },
-    {
-        "id": "1207342593466179768",
+        "id": "1209919518147878932",
         "type": 0,
         "content": "",
         "channel_id": "1187484002844680354",
@@ -2278,9 +2232,9 @@
             {
                 "type": "rich",
                 "title": "\ud83d\udd25 Hot Contract - Ask Side",
-                "description": "**[META 495 C 02/23/2024 (9 DTE)](https://unusualwhales.com/flow/option_chains?chain=META240223C00495000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=META240223C00495000)\nOverall Volume: 4,099\nOpen Interest: 2,361\nVol/OI: 1.74\nOTM: 5%\nBid/Ask %: 25/71\nPremium: $607,898\nAverage Fill: $1.48\nMulti-leg Volume: 2%",
-                "color": 1164142,
-                "timestamp": "2024-02-14T15:08:24+00:00",
+                "description": "**[NEM 31 P 03/15/2024 (23 DTE)](https://unusualwhales.com/flow/option_chains?chain=NEM240315P00031000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=NEM240315P00031000)\nOverall Volume: 2,793\nOpen Interest: 1,604\nVol/OI: 1.74\nOTM: 6%\nBid/Ask %: 12/88\nPremium: $166,220\nAverage Fill: $0.60\nMulti-leg Volume: 0%",
+                "color": 15403273,
+                "timestamp": "2024-02-21T17:48:02+00:00",
                 "footer": {
                     "text": "Happy Hunting!",
                     "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
@@ -2294,7 +2248,53 @@
         "pinned": false,
         "mention_everyone": false,
         "tts": false,
-        "timestamp": "2024-02-14T15:08:25.623000+00:00",
+        "timestamp": "2024-02-21T17:48:12.344000+00:00",
+        "edited_timestamp": null,
+        "flags": 0,
+        "components": []
+    },
+    {
+        "id": "1209914921454669924",
+        "type": 0,
+        "content": "",
+        "channel_id": "1187484002844680354",
+        "author": {
+            "id": "721248808469790760",
+            "username": "unusual_whales_bot",
+            "avatar": "06b1f903f199a7ca5265ac3e4d4a572e",
+            "discriminator": "7407",
+            "public_flags": 0,
+            "premium_type": 0,
+            "flags": 0,
+            "bot": true,
+            "banner": null,
+            "accent_color": null,
+            "global_name": null,
+            "avatar_decoration_data": null,
+            "banner_color": null
+        },
+        "attachments": [],
+        "embeds": [
+            {
+                "type": "rich",
+                "title": "\ud83d\udd25 Hot Contract - Ask Side",
+                "description": "**[NKE 108 C 02/23/2024 (2 DTE)](https://unusualwhales.com/flow/option_chains?chain=NKE240223C00108000)**\n[Time and sales](https://unusualwhales.com/live-options-flow?limit=50&chain=NKE240223C00108000)\nOverall Volume: 6,183\nOpen Interest: 1,190\nVol/OI: 5.20\nOTM: 3%\nBid/Ask %: 14/85\nPremium: $100,017\nAverage Fill: $0.16\nMulti-leg Volume: 1%",
+                "color": 1164142,
+                "timestamp": "2024-02-21T17:29:46+00:00",
+                "footer": {
+                    "text": "Happy Hunting!",
+                    "icon_url": "https://uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/IYukoqRSzVUtY3N_qiv3w03Bmvd1Q2usQgzp6SuC7eY/https/uwhales-prod.s3-us-west-1.amazonaws.com/unusualwhales_final_logo_transparent.png"
+                },
+                "content_scan_version": 1
+            }
+        ],
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2024-02-21T17:29:56.407000+00:00",
         "edited_timestamp": null,
         "flags": 0,
         "components": []
