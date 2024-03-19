@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options Flow Data</title>
+
+    <!-- Add DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+
+    <!-- Add jQuery -->
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Add DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // Enable DataTables for both tables
+            $('#optionsFlowTable').DataTable();
+            $('#tagTable').DataTable();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Enable DataTables for both tables
+
+            });
+            $('#tagTable').DataTable();
+        });
+    </script>
+</head>
+<body>
+    <h1>Options Flow Data</h1>
+
+    <h2>Options Flow Table</h2>
+    <table border="1" id="optionsFlowTable">
+        <thead>
+            <tr>
+                <th>Executed At</th>
+                <th>Market Cap</th>
+                <th>Option Chain ID</th>
+                <th>Ticker</th>
+                <th>Industry Type</th>
+                <th>Expiry</th>
+                <th>Price</th>
+                <th>Size</th>
+                <th>Volume</th>
+                <th>OI</th>
+                <th>Type</th>
+                <th>Stock Price</th>
+                <th>Premium</th>
+            </tr>
+        </thead>
+         <tbody>
+            {% for row in options_data %}
+                <tr>
+                    <td>{{ row[0] }}</td> <!-- Executed At -->
+                    <td>{{ row[1] }}</td> <!-- Market Cap -->
+                    <td>{{ row[2] }}</td> <!-- Option Chain ID -->
+                    <td>{{ row[3] }}</td> <!-- Ticker -->
+                    <td>{{ row[4] }}</td> <!-- Industry Type -->
+                    <td>{{ row[5] }}</td> <!-- Expiry -->
+                    <td>{{ row[6] }}</td> <!-- Price -->
+                    <td>{{ row[11] }}</td> <!-- size -->
+                    <td>{{ row[7] }}</td> <!-- Volume -->
+                    <td>{{ row[8] }}</td> <!-- OI -->
+                    <td>{{ row[9] }}</td> <!-- Type -->
+                    <td>{{ row[10] }}</td> <!-- Stock Price -->
+                    <td>{{ row[12] }}</td> <!-- Premium -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
