@@ -6,6 +6,7 @@ from helper import extract_characters_until_first_number
 from helper import isExpired
 from helper import getDate
 import re
+import sqlite3
 
 import time
 import requests
@@ -35,7 +36,11 @@ class Result:
             f"{self.spot}, {self.max_avg_price}, {self.sector}")
 
 
-def process_each_option(options_data, filter_data, result):
+# Configure the database path
+DB_PATH = './db/trade.db'
+
+
+def process_each_option(options_data, filter_data):
     # print('Trade execution date - ' + filter_data.get('executed_at') + ' ' + filter_data.get('option_chain_id'))
     trade_date = getDate(filter_data.get('executed_at'))
     price = float(filter_data.get('price'))
@@ -44,15 +49,16 @@ def process_each_option(options_data, filter_data, result):
 
     for day_data in options_data:
         # print(day_data["last_tape_time"])
-        if (day_data["avg_price"] is not None):
+        if day_data["avg_price"] is not None:
             avg_price = float(day_data["avg_price"])
             if avg_price > max_avg_price:
                 max_avg_price = avg_price
 
-    result.max_avg_price = max_avg_price
+    filter_data.max_avg_price = max_avg_price
     # result.sector = day_data["industry_type"]
     if max_avg_price > (price * percentage_threshold):
-        result.success = True
+        filter_data.success = True
+        # insert into DB the updated flag value
 
 
 def read_and_print_json(file_path):
@@ -77,18 +83,50 @@ def read_and_print_json(file_path):
         print(f"Error decoding JSON: {e}")
 
 
-def calcAlertPerformance(filter_data, results):
+def update_success_flag():
+    def fetch_table_data():
+        connection = sqlite3.connect(DB_PATH)
+        cursor = connection.cursor()
+
+        cursor.execute(
+            f'SELECT executed_at, marketcap, option_chain_id, underlying_symbol, industry_type, expiry, price, '
+            f'volume, open_interest, option_type,'
+            f' underlying_price, size, premium, success FROM options_flow')
+
+        options_data = cursor.fetchall()
+        for row in options_data:
+            evaluateOptionPerformance(row)
+            break
+        connection.close()
+
+        return options_data
+
+
+def get_filtered_rows_from_db():
+    def fetch_table_data():
+        connection = sqlite3.connect(DB_PATH)
+        cursor = connection.cursor()
+
+        cursor.execute(
+            f'update options_flow set success = 1 where option r')
+
+        options_data = cursor.fetchall()
+        for row in options_data:
+            evaluateOptionPerformance(row)
+            break
+        connection.close()
+
+        return options_data
+
+
+def evaluateOptionPerformance(filter_data):
     history_url = option_chain_url + filter_data.get('option_chain_id') + '?date=' + filter_data.get('expiry')
     # print(history_url)
     options_data = getChainDataFromUW(history_url)
     # print(options_data)
     # print(isExpired(filter_data.get('expiry')))
     # def __init__(self, trade_date, expiration_date, contract, success, sector, max_avg_price, spot):
-    result = Result(filter_data.get('executed_at'), filter_data.get('expiry'), filter_data.get('option_chain_id'),
-                    False, filter_data.get('sector'), 0.0, filter_data.get('price'))
-    process_each_option(options_data.get('chains'), filter_data, result)
-    results.append(result)
-    print(result)
+    process_each_option(options_data.get('chains'), filter_data)
 
 
 # Example usage:
