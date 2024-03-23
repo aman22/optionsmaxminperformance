@@ -1,49 +1,45 @@
-import json
-from prettytable import PrettyTable
-from collections import Counter
-from helper import getChainDataFromUW
-from helper import extract_characters_until_first_number
-from helper import isExpired
-from helper import getDate
-import re
-import sqlite3
-
-import time
+from datetime import datetime
+from options_data import OptionsFlow
 import requests
-
-
-class Result:
-    def __init__(self, trade_date, expiration_date, contract, success, sector, max_avg_price, spot):
-        # self.ticker = extract_characters_until_first_number(contract)
-        self.trade_date = trade_date
-        self.expiration_date = expiration_date
-        self.contract = contract
-        self.success = success
-        self.spot = spot
-        self.max_avg_price = max_avg_price
-        self.sector = sector
-
-    def extract_characters_until_first_number(input_string):
-        match = re.search(r'^([^0-9]+)', input_string)
-        if match:
-            return match.group(1)
-        else:
-            return input_string
-
-    def __str__(self):
-        return (
-            f"{extract_characters_until_first_number(self.contract)}, {self.trade_date}, {self.expiration_date}, {self.contract}, {self.success}, "
-            f"{self.spot}, {self.max_avg_price}, {self.sector}")
-
+import sqlite3
 
 # Configure the database path
 DB_PATH = './db/trade.db'
 
+def getDate(long_date):
+    # Convert the string to a datetime object
 
-def process_each_option(options_data, filter_data):
+    date_object = datetime.strptime(long_date, "%Y-%m-%dT%H:%M:%S.%f%z")
+    # Extract the date
+    formatted_date = date_object.strftime("%Y-%m-%d")
+    # print("Extracted date:", formatted_date)
+    return formatted_date
+
+def getChainDataFromUW(url):
+    token = "lqMAxR0P9Ty4EmAASMeHopNZbP9OJqzaf468XJVhuu35"
+    try:
+        headers = {
+            'Authorization': f'Bearer {token}',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+        }
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            # Assuming the response is in JSON format
+            data = response.json()
+            return data
+        else:
+            print(f"Request failed with status code {response.status_code}")
+            return None
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error during the request: {e}")
+        return None
+
+
+def process_each_option(options_data, option_flow_row):
     # print('Trade execution date - ' + filter_data.get('executed_at') + ' ' + filter_data.get('option_chain_id'))
-    trade_date = getDate(filter_data.get('executed_at'))
-    price = float(filter_data.get('price'))
+    trade_date = getDate(option_flow_row.get('executed_at'))
+    price = float(option_flow_row.get('price'))
     percentage_threshold = 1.5
     max_avg_price = float('-inf')  # Initialize with negative infinity to ensure any average price will be greater
 
@@ -54,79 +50,65 @@ def process_each_option(options_data, filter_data):
             if avg_price > max_avg_price:
                 max_avg_price = avg_price
 
-    filter_data.max_avg_price = max_avg_price
+    option_flow_row.max_avg_price = max_avg_price
     # result.sector = day_data["industry_type"]
     if max_avg_price > (price * percentage_threshold):
-        filter_data.success = True
+        option_flow_row.success = True
         # insert into DB the updated flag value
+        update_success_flag(option_flow_row.get('id'))
 
 
-def read_and_print_json(file_path):
-    print(f"START---")
-    results = []
-    try:
-        # Open the JSON file for reading
-        with open(file_path, 'r') as file:
-            # Load the JSON data
-            print(f"FILE OPEN ---")
-            fileData = json.load(file)
-            # alert_array = fileData.get('alerts')
-
-            for filter_data in fileData:
-                calcAlertPerformance(filter_data, results)
-                # break
-            else:
-                print("Error: JSON data is not an array.")
-    except FileNotFoundError:
-        print(f"Error: File '{file_path}' not found.")
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}")
-
-
-def update_success_flag():
+def update_success_flag(id):
     def fetch_table_data():
         connection = sqlite3.connect(DB_PATH)
         cursor = connection.cursor()
 
-        cursor.execute(
-            f'SELECT executed_at, marketcap, option_chain_id, underlying_symbol, industry_type, expiry, price, '
-            f'volume, open_interest, option_type,'
-            f' underlying_price, size, premium, success FROM options_flow')
+        update_statement = '''
+            update options_flow set success = 1 where id = ?;
+        '''
 
-        options_data = cursor.fetchall()
-        for row in options_data:
-            evaluateOptionPerformance(row)
-            break
+        cursor.execute(update_statement, (id,))
+        print("Success flag updated for flow ID:", id)
         connection.close()
-
-        return options_data
 
 
 def get_filtered_rows_from_db():
-    def fetch_table_data():
-        connection = sqlite3.connect(DB_PATH)
-        cursor = connection.cursor()
+    connection = sqlite3.connect(DB_PATH)
+    cursor = connection.cursor()
 
-        cursor.execute(
-            f'update options_flow set success = 1 where option r')
+    cursor.execute(
+        # f'SELECT executed_at, marketcap, option_chain_id, underlying_symbol, industry_type, expiry, price, volume, open_interest, option_type, '
+        # f' underlying_price, size, premium, success FROM options_flow')
+        '''
+            SELECT id, marketcap, stock_multi_vol, full_name, expiry, no_side_vol, nbbo_ask, theta, ask_vol, volume,
+            price, ewma_nbbo_bid, open_interest, nbbo_bid, industry_type, implied_volatility, er_time, sector,
+            multi_vol, gamma, rule_id, underlying_symbol, executed_at, strike, rho, vega, flow_alert_id, delta,
+            size, ewma_nbbo_ask, option_type, underlying_price, next_earnings_date, upstream_condition_detail,
+            bid_vol, canceled, exchange, theo, premium, option_chain_id, mid_vol
+            FROM options_flow;
+        '''
+    )
 
-        options_data = cursor.fetchall()
-        for row in options_data:
-            evaluateOptionPerformance(row)
-            break
-        connection.close()
+    rows = cursor.fetchall()
 
-        return options_data
+    options_flow_rows = []
+    for row in rows:
+        options_flow = OptionsFlow(*row)
+        options_flow_rows.append(options_flow)
+
+    connection.close()
+
+    return options_flow_rows
 
 
-def evaluateOptionPerformance(filter_data):
-    history_url = option_chain_url + filter_data.get('option_chain_id') + '?date=' + filter_data.get('expiry')
+def evaluateOptionPerformance(option_flow_row):
+    history_url = option_chain_url + option_flow_row.option_chain_id + '?date=' + option_flow_row.expiry
     # print(history_url)
     options_data = getChainDataFromUW(history_url)
     # print(options_data)
     # print(isExpired(filter_data.get('expiry')))
     # def __init__(self, trade_date, expiration_date, contract, success, sector, max_avg_price, spot):
-    process_each_option(options_data.get('chains'), filter_data)
+    process_each_option(options_data.get('chains'), option_flow_row)
 
 
 # Example usage:
@@ -135,52 +117,11 @@ json_file_path = "data_files/data"
 option_chain_url = "https://phx.unusualwhales.com/api/historic_chains/"
 
 
-def count_distinct_values(table, column_name):
-    # Get the index of the specified column
-    column_index = table.field_names.index(column_name) if column_name in table.field_names else -1
-
-    if column_index != -1:
-        # Extract values from the specified column
-        column_values = [row[column_index] for row in table.rows]
-
-        # Count distinct values using Counter
-        distinct_values_count = Counter(column_values)
-
-        # Print the results
-        print(f"Distinct values in '{column_name}':")
-        for value, count in distinct_values_count.items():
-            print(f"{value}: {count}")
-    else:
-        print(f"Error: Column '{column_name}' not found in the table.")
+def calculate_perf():
+    options_data = get_filtered_rows_from_db()
+    for row in options_data:
+        evaluateOptionPerformance(row)
+        break
 
 
-# Replace with the actual path to your JSON file
-read_and_print_json(json_file_path)
-
-
-class Option:
-    def __init__(self, ticker, strike, option_type, expiration_date, days_to_expiry, link, vol, oi, otm, bid, ask,
-                 premium, price, multi):
-        self.ticker = ticker
-        self.strike = strike
-        self.option_type = option_type
-        self.expiration_date = expiration_date
-        self.days_to_expiry = days_to_expiry
-        self.link = link
-        self.vol = vol
-        self.oi = oi
-        self.otm = otm
-        self.bid = bid
-        self.ask = ask
-        self.premium = premium
-        self.price = price
-        self.multi = multi
-
-    def print_comma_separated_values(self):
-        values = [
-            str(self.ticker), str(self.strike), str(self.option_type),
-            str(self.expiration_date), str(self.days_to_expiry), str(self.link),
-            str(self.vol), str(self.oi), str(self.otm), str(self.bid),
-            str(self.ask), str(self.premium), str(self.price), str(self.multi)
-        ]
-        print(', '.join(values))
+calculate_perf()

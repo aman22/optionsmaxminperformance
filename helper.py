@@ -1,7 +1,9 @@
 
-import requests
 from datetime import datetime
 import re
+
+import requests
+
 
 def getChainDataFromUW(url):
     token = "lqMAxR0P9Ty4EmAASMeHopNZbP9OJqzaf468XJVhuu35"
@@ -23,10 +25,10 @@ def getChainDataFromUW(url):
         print(f"Error during the request: {e}")
         return None
 
-def get_live_options_flow():
 
+def get_live_options_flow():
     token = "lqMAxR0P9Ty4EmAASMeHopNZbP9OJqzaf468XJVhuu35"
-    url=""
+    url = ""
     try:
         headers = {
             'Authorization': f'Bearer {token}',
@@ -45,6 +47,7 @@ def get_live_options_flow():
         print(f"Error during the request: {e}")
         return None
 
+
 def getDate(long_date):
     # Convert the string to a datetime object
 
@@ -53,6 +56,8 @@ def getDate(long_date):
     formatted_date = date_object.strftime("%Y-%m-%d")
     # print("Extracted date:", formatted_date)
     return formatted_date
+
+
 # //%Y-%m-%dT%H:%M:%S.%f%z
 def convert_to_desired_format(timestamp_str):
     try:
@@ -68,6 +73,8 @@ def convert_to_desired_format(timestamp_str):
     # Format the timestamp as '%Y-%m-%d %H:%M:%S'
     formatted_timestamp = timestamp_obj.strftime('%Y-%m-%d %H:%M:%S')
     return formatted_timestamp
+
+
 def isExpired(string_date):
     try:
         date_object = datetime.strptime(string_date, "%Y-%m-%d")
@@ -81,6 +88,7 @@ def isExpired(string_date):
         # Handle invalid date formats
         print("Invalid date format")
         return False
+
 
 def extract_characters_until_first_number(input_string):
     match = re.search(r'^([^0-9]+)', input_string)

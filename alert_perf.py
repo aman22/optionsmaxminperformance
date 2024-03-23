@@ -35,7 +35,7 @@ def read_and_print_json(file_path):
         print(f"Error decoding JSON: {e}")
 
 # Example usage:
-#son_file_path = "/Users/amandetail/PycharmProjects/optionsmaxminperformance/alerts-1row"
+json_file_path = "/Users/Aman/PycharmProjects/optionsmaxminperformance/data_files/alerts-1row"
 option_chain_url="https://phx.unusualwhales.com/api/historic_chains/"
 
 def count_distinct_values(table, column_name):
