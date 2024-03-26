@@ -147,7 +147,7 @@ class OptionsFlow:
                  gamma, rule_id, underlying_symbol, executed_at, strike, rho, vega,
                  flow_alert_id, delta, size, ewma_nbbo_ask, option_type, underlying_price,
                  next_earnings_date, upstream_condition_detail, bid_vol, canceled, exchange,
-                 theo, premium, option_chain_id, mid_vol):
+                 theo, premium, option_chain_id, mid_vol, success):
         self.id = id
         self.marketcap = marketcap
         self.stock_multi_vol = stock_multi_vol
@@ -189,3 +189,4 @@ class OptionsFlow:
         self.premium = premium
         self.option_chain_id = option_chain_id
         self.mid_vol = mid_vol
+        self.success = success

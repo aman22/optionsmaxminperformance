@@ -14,25 +14,113 @@
     <!-- Add DataTables JS -->
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            // Enable DataTables for both tables
-            $('#optionsFlowTable').DataTable();
-            $('#tagTable').DataTable();
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            // Enable DataTables for both tables
+    <style>
+        /* Define CSS rules for color coding */
+        .success {
+            background-color: lightgreen;
+        }
+        .failure {
+            background-color: tomato;
+        }
+        /* Reduce font size for table cells */
+        table {
+            font-size: 13px;
+        }
+        .past-expiry {
+            background-color: #FFC0CB; /* Light pink */
+        }
 
+        /* Style the tab buttons */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            // Enable DataTables for the options flow table
+            var table1 = $('#optionsFlowTable').DataTable({
+                "pageLength": 100
             });
-            $('#tagTable').DataTable();
+
+            // Add individual column filtering inputs for options flow table
+            $('#optionsFlowTable thead tr').clone(true).appendTo( '#optionsFlowTable thead' );
+            $('#optionsFlowTable thead tr:eq(1) th').each( function (i) {
+                var title = $(this).text();
+                $(this).html( '<input type="text" placeholder="'+title+'" />' );
+
+                $( 'input', this ).on( 'keyup change', function () {
+                    if ( table1.column(i).search() !== this.value ) {
+                        table1
+                            .column(i)
+                            .search( this.value )
+                            .draw();
+                    }
+                });
+            });
+
+            // Enable DataTables for the options summary table
+            var table2 = $('#optionsSummaryTable').DataTable({
+                "pageLength": 100
+            });
+
+            // Add individual column filtering inputs for options summary table
+            $('#optionsSummaryTable thead tr').clone(true).appendTo( '#optionsSummaryTable thead' );
+            $('#optionsSummaryTable thead tr:eq(1) th').each( function (i) {
+                var title = $(this).text();
+                $(this).html( '<input type="text" placeholder="'+title+'" />' );
+
+                $( 'input', this ).on( 'keyup change', function () {
+                    if ( table2.column(i).search() !== this.value ) {
+                        table2
+                            .column(i)
+                            .search( this.value )
+                            .draw();
+                    }
+                });
+            });
         });
     </script>
 </head>
-<body>
-    <h1>Options Flow Data</h1>
 
+<body>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'OptionsFlow')">Options Flow</button>
+    <button class="tablinks" onclick="openTab(event, 'Summary')">Summary</button>
+</div>
+<div id="OptionsFlow" class="tabcontent">
     <h2>Options Flow Table</h2>
     <table border="1" id="optionsFlowTable">
         <thead>
@@ -43,38 +131,90 @@
                 <th>Ticker</th>
                 <th>Industry Type</th>
                 <th>Expiry</th>
-                <th>Price</th>
+                <th>Stock Price</th>
+                <th>Option Price</th>
+                <th>Max Avg Price</th>
                 <th>Size</th>
-                <th>Volume</th>
+                <th>Vol</th>
                 <th>OI</th>
                 <th>Type</th>
-                <th>Stock Price</th>
                 <th>Premium</th>
-                 <th>Success</th>
+                <th>Strat</th>
+                <th>Success</th>
             </tr>
         </thead>
-         <tbody>
-            {% for row in options_data %}
+        <tbody>
+            {% for row in options_flow_data %}
                 <tr>
                     <td>{{ row[0] }}</td> <!-- Executed At -->
                     <td>{{ row[1] }}</td> <!-- Market Cap -->
                     <td>{{ row[2] }}</td> <!-- Option Chain ID -->
                     <td>{{ row[3] }}</td> <!-- Ticker -->
                     <td>{{ row[4] }}</td> <!-- Industry Type -->
-                    <td>{{ row[5] }}</td> <!-- Expiry -->
+                    <td><a href="https://phx.unusualwhales.com/api/historic_chains/{{ row[2] }}?date={{ row[5] }}">{{ row[5] }}</a></td> <!-- Expiry -->
+                    <td>{{ row[10] }}</td> <!-- Stock Price -->
                     <td>{{ row[6] }}</td> <!-- Price -->
+                    <td>{{ row[14] }}</td> <!-- Premium -->
                     <td>{{ row[11] }}</td> <!-- size -->
                     <td>{{ row[7] }}</td> <!-- Volume -->
                     <td>{{ row[8] }}</td> <!-- OI -->
                     <td>{{ row[9] }}</td> <!-- Type -->
-                    <td>{{ row[10] }}</td> <!-- Stock Price -->
                     <td>{{ row[12] }}</td> <!-- Premium -->
-                    <td>{{ row[13] }}</td> <!-- Success -->
-
+                    <td>{{ row[15] }}</td>
+                    <td class="{% if row[13] %}success{% else %}failure{% endif %}">{{ row[13] }}</td> <!-- Success -->
                 </tr>
             {% endfor %}
         </tbody>
     </table>
+</div>
+<div id="Summary" class="tabcontent">
+    <h3>Summary</h3>
+    <!-- Place your Summary content here -->
+    <table border="1" id="optionsSummaryTable">
+        <thead>
+            <tr>
+                <th>Industry</th>
+                <th>Strategy</th>
+                <th>Success</th>
+                <th>failed</th>
+                <th>total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in option_summary %}
+                <tr>
+                    <td>{{ row[0] }}</td> <!--  -->
+                    <td>{{ row[1] }}</td> <!--  -->
+                    <td>{{ row[2] }}</td> <!-- -->
+                    <td>{{ row[3] }}</td> <!--  -->
+                    <td>{{ row[4] }}</td> <!--  -->
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
 
+<script>
+    // Function to switch between tabs
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+
+        // Hide all tab content
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Remove the 'active' class from all tab buttons
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the selected tab content and mark the button as active
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
 </body>
 </html>

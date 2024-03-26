@@ -44,7 +44,9 @@ CREATE TABLE IF NOT EXISTS options_flow (
         theo REAL,
         premium REAL,
         option_chain_id TEXT,
-        mid_vol INTEGER
+        mid_vol INTEGER,
+        success BOOLEAN,
+        max
     );
 
 CREATE TABLE IF NOT EXISTS tag (

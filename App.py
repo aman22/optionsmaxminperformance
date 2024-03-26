@@ -15,8 +15,10 @@ DB_PATH = './db/trade.db'
 @app.route('/')
 def index():
     # Fetch column names and data from the options_flow table
-    options_data = fetch_table_data('options_flow')
-    return render_template('index.html', options_data=options_data)
+    options_flow_data = fetch_table_data('options_flow')
+    option_summary = fetch_summary()
+
+    return render_template('index.html', options_flow_data=options_flow_data, option_summary=option_summary)
 
 
 def fetch_table_data(table_name):
@@ -24,19 +26,33 @@ def fetch_table_data(table_name):
     cursor = connection.cursor()
 
     cursor.execute(f'SELECT executed_at, marketcap, option_chain_id, underlying_symbol, industry_type, expiry, price, volume, open_interest, option_type, '
-                   f' underlying_price, size, premium, success FROM {table_name}')
+                   f' underlying_price, size, premium, success, ROUND(max_avg_price, 2), strategy FROM {table_name}')
 
     options_data = cursor.fetchall()
-    for row in options_data:
-        evaluateOptionPerformance(row)
-        break
     connection.close()
 
     return options_data
 
+def fetch_summary():
+    connection = sqlite3.connect(DB_PATH)
+    cursor = connection.cursor()
+
+    cursor.execute(''' SELECT 
+            industry_type,
+            strategy,
+            SUM(CASE WHEN success = 1 THEN 1 ELSE 0 END) AS successful_count,
+            SUM(CASE WHEN success = 0 THEN 1 ELSE 0 END) AS failed_count,
+            COUNT(*) AS total_count
+        FROM 
+            options_flow where expiry < current_date
+        GROUP BY 
+            industry_type,
+            strategy;''')
+
+    options_summary = cursor.fetchall()
+    connection.close()
+
+    return options_summary
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-def evaluateOptionsPerformance(option):
-    print(option)

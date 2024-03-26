@@ -13,7 +13,8 @@ option_chain_url = "https://phx.unusualwhales.com/api/historic_chains/"
 
 def getFilterDataFromUW():
     print('START UW')
-    url = "https://phx.unusualwhales.com/api/option_trades_v2?exclude_deep_itm=true&excluded_tags[]=dividend&excluded_tags[]=mid_side&excluded_tags[]=no_side&excluded_tags[]=bid_side&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&limit=50&max_dte=151&min_premium=100000&opening=true&ticker_symbol=-CCJ&type=Calls&watchlist_name=BTO%20100k%20%2B%20calls&older_than=2024-02-01T20%3A05%3A27.468225Z"
+    #url = "https://phx.unusualwhales.com/api/option_trades_v2?exclude_deep_itm=true&excluded_tags[]=dividend&excluded_tags[]=mid_side&excluded_tags[]=no_side&excluded_tags[]=bid_side&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&limit=50&max_dte=151&min_premium=100000&opening=true&ticker_symbol=-CCJ&type=Calls&watchlist_name=BTO%20100k%20%2B%20calls&older_than=2024-02-01T20%3A05%3A27.468225Z"
+    url = "https://phx.unusualwhales.com/api/option_trades_v2?excluded_tags[]=dividend&excluded_tags[]=mid_side&excluded_tags[]=ask_side&excluded_tags[]=no_side&is_multi_leg=false&issue_types[]=Common%20Stock&issue_types[]=ADR&limit=250&max_dte=60&min_premium=100000&opening=true&type=P&watchlist_name=STO%20Puts%20Bullish%2010k%2B&older_than=2024-02-02T14%3A30%3A03.707639Z"
     token = "fGRTEucJ6qsRPtrdZubn_KWp30Lz3w9sqHf7gm-YVRMwr0Lbwef-TFxbyOEwbW9d"
     try:
         headers = {
@@ -38,8 +39,8 @@ def load_data():
     print('START')
     options_filter_data = getFilterDataFromUW()
 
-    db_path = '/Users/Aman/trade.db'
-    connection = sqlite3.connect(db_path)
+    DB_PATH = './db/trade.db'
+    connection = sqlite3.connect(DB_PATH)
     cursor = connection.cursor()
 
     for row in options_filter_data.get('data'):
