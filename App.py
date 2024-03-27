@@ -39,12 +39,13 @@ def fetch_summary():
 
     cursor.execute(''' SELECT 
             industry_type,
+            sector,
             strategy,
             SUM(CASE WHEN success = 1 THEN 1 ELSE 0 END) AS successful_count,
             SUM(CASE WHEN success = 0 THEN 1 ELSE 0 END) AS failed_count,
             COUNT(*) AS total_count
         FROM 
-            options_flow where expiry < current_date
+            options_flow 
         GROUP BY 
             industry_type,
             strategy;''')

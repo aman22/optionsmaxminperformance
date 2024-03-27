@@ -112,6 +112,7 @@
                 });
             });
         });
+
     </script>
 </head>
 
@@ -174,6 +175,7 @@
         <thead>
             <tr>
                 <th>Industry</th>
+                <th>Sector</th>
                 <th>Strategy</th>
                 <th>Success</th>
                 <th>failed</th>
@@ -188,6 +190,7 @@
                     <td>{{ row[2] }}</td> <!-- -->
                     <td>{{ row[3] }}</td> <!--  -->
                     <td>{{ row[4] }}</td> <!--  -->
+                    <td>{{ row[5] }}</td> <!--  -->
                 </tr>
             {% endfor %}
         </tbody>
@@ -196,25 +199,45 @@
 
 <script>
     // Function to switch between tabs
-    function openTab(evt, tabName) {
-        var i, tabcontent, tablinks;
+    // Function to switch between tabs
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
 
-        // Hide all tab content
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
+    // If evt is undefined, set it to an empty object
+    evt = evt || {};
 
-        // Remove the 'active' class from all tab buttons
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
+    // Hide all tab content
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
 
-        // Show the selected tab content and mark the button as active
-        document.getElementById(tabName).style.display = "block";
+    // Remove the 'active' class from all tab buttons
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the selected tab content and mark the button as active
+    document.getElementById(tabName).style.display = "block";
+    if (evt.currentTarget) {
         evt.currentTarget.className += " active";
     }
+}
+
+    openTab(event, 'Summary');
+
+            // Change cell color based on success rate
+            $('#optionsSummaryTable tbody tr').each(function() {
+                var successCell = $(this).find('td:nth-child(4)');
+                var totalCell = $(this).find('td:nth-child(6)');
+                var successRate = parseFloat(successCell.text()) / parseFloat(totalCell.text());
+                if (successRate > 0.9) {
+                    successCell.addClass('success');
+                }
+            });
+
+
 </script>
 </body>
 </html>
