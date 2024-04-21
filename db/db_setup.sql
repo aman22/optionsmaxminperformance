@@ -46,8 +46,16 @@ CREATE TABLE IF NOT EXISTS options_flow (
         option_chain_id TEXT,
         mid_vol INTEGER,
         success BOOLEAN,
+        side
+        equity_type
+        report_flags
+
         max
+
     );
+
+    executed_at,underlying_symbol,option_chain_id,side,strike,option_type,expiry,underlying_price,nbbo_bid,nbbo_ask,ewma_nbbo_bid,ewma_nbbo_ask,price,size,premium,volume,open_interest,implied_volatility,delta,theta,gamma,vega,rho,theo,sector,exchange,report_flags,canceled,upstream_condition_detail,equity_type
+
 
 CREATE TABLE IF NOT EXISTS tag (
         flow_id TEXT,
